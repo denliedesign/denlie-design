@@ -1,0 +1,97 @@
+/*********************** WELCOME 4 - 2024 *******************/
+html {
+    background: #FFF1E6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, p, a, div, button {
+    color: #2B2D42;
+}
+
+h1 { font-size: 76px !important; }
+h2 { font-size: 48px !important; }
+p, a, div, button { font-size: 24px; }
+
+.fonts-play {
+    font-family: "Playfair Display", serif;
+}
+
+.fonts-robo {
+    font-family: "Roboto", sans-serif;
+}
+
+.fonts-dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+.open-concept-title {
+    text-align: center;
+    line-height: 1 !important;
+    font-family: "Playfair Display", serif;
+}
+
+.open-concept-title-pop {
+    font-size: 1.5em;
+    color: #FF6B6B;
+    font-family: "Dancing Script", cursive;
+}
+
+.color-coral { color: #FF6B6B; }
+.bg-coral, .btn-coral { background: #FF6B6B !important; }
+.btn-outline-coral { background: #FFF1E6 !important; border: 1px solid #FF6B6B !important; color: #FF6B6B !important; }
+.color-yellow { color: #FFD93D; }
+.bg-yellow { background: #FFD93D; }
+.color-peach { color: #FFA372; }
+.bg-peach, .btn-peach { background: #FFA372 !important; }
+.color-warm { color: #FFF1E6 !important; }
+.bg-warm { background: #FFF1E6 !important; }
+.color-teal { color: #2B2D42; }
+.bg-teal, .btn-teal { background: #2B2D42 !important; }
+
+.brand-link {
+    text-decoration: none;
+    color: #2B2D42;
+}
+
+.brand-link:hover {
+    color: #FFA372;
+}
+
+.cart-sidebar {
+    background: #2B2D42 !important;
+}
+
+.cart-sidebar, .cart-sidebar h5, .cart-sidebar button, .cart-sidebar ul {
+    color: #FFF1E6 !important;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-subtotal {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFF1E6;
+}
+
+.numero {
+    background: #2B2D42;
+    color: white;
+    padding: 24px 24px;
+    border-radius: 50%;
+}
+
+.banner-wrap {
+    height: 200px;
+}
+
+.banner {
+    height: 100%;
+    background-image: url("/images/icons/flower.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
