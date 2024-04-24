@@ -30,6 +30,13 @@ p, a, div, button { font-size: 24px; }
     font-family: "Playfair Display", serif;
 }
 
+/* Media query for screens with a maximum width of 767px */
+@media (max-width: 767px) {
+    .open-concept-title {
+        font-size: 60px !important; /* Adjust this value to the desired font size */
+    }
+}
+
 .open-concept-title-pop {
     font-size: 1.5em;
     color: #FF6B6B;

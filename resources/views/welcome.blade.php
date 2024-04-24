@@ -35,7 +35,7 @@
                     </div>
                     <div class="col d-flex align-items-center">
                         <div style="position: relative;">
-                            <img src="/images/logo-mtjgd-new.png" alt="" class="img-fluid" style="opacity: 33%; width: 500px; height: auto; top: 33%; right: -200px; transform: rotate(90deg); position: absolute; overflow: hidden;">
+                            <img src="/images/logo-mtjgd-new.png" alt="" class="img-fluid d-none d-md-block" style="opacity: 33%; width: 500px; height: auto; top: 33%; right: -200px; transform: rotate(90deg); position: absolute;">
                             <h1 class="open-concept-title" style="position: relative; z-index: 2;">Dance Expertise</h1>
                             <p class="fonts-robo text-center" style="position: relative; z-index: 2;">
                                 With deep roots in the dance community and partnerships with leaders like Misty Lown, Denlie Design leverages authentic industry insights to create websites that truly embody the spirit of dance. Our designs are not only recommended by More Than Just Great Dancing!® but also integrate their proven principles to help your studio thrive.
