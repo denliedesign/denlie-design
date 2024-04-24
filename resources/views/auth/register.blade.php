@@ -3,8 +3,8 @@
 
     <div class="bg-warm">
         <div class="container py-5">
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="numero fonts-robo d-flex align-items-center color-warm"><span>step</span>&nbsp;<span style="font-size: 2em;">1</span></div>
+            <div class="d-md-flex justify-content-center align-items-center">
+                <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">1</span></div>
                 <h2 class="open-concept-title text-center ms-3">Create An Account</h2>
             </div>
 

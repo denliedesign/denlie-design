@@ -1,6 +1,6 @@
 <div class="bg-warm">
     <div class="d-flex justify-content-center">
-        <div class="dropdown mx-3">
+        <div class="dropdown mx-2 mx-sm-2 mx-md-3">
             <a style="list-style-type: none; font-size: 0.75em;" class="brand-link text-lowercase" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 designs
             </a>
@@ -11,7 +11,7 @@
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/licensed-refresh">licensed refresh</a></li>
             </ul>
         </div>
-        <div class="dropdown mx-3">
+        <div class="dropdown mx-2 mx-sm-2 mx-md-3">
             <a style="list-style-type: none; font-size: 0.75em;" class="brand-link text-lowercase" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 add-ons
             </a>
@@ -27,7 +27,7 @@
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/additional-form">additional form</a></li>
             </ul>
         </div>
-        <div class="dropdown mx-3">
+        <div class="dropdown mx-2 mx-sm-2 mx-md-3">
             <a style="list-style-type: none; font-size: 0.75em;" class="brand-link text-lowercase" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 engagement
             </a>
@@ -39,7 +39,7 @@
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/engageplus">engageplus</a></li>
             </ul>
         </div>
-        <div class="dropdown mx-3">
+        <div class="dropdown mx-2 mx-sm-2 mx-md-3">
             <a style="list-style-type: none; font-size: 0.75em;" class="brand-link text-lowercase" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 services
             </a>
