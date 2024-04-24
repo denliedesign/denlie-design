@@ -27,7 +27,7 @@
                                         <p class="pb-0 text-capitalize"><a class="brand-link" href="/ppc">PPC</a></p>
                                         <p style="font-size: 16px !important;" class="pb-0">Drive targeted traffic to your dance studio's website with our Pay-Per-Click advertising service. We handle strategy, setup, management, and optimization of ads, maximizing your return on investment.</p>
                                         <div class="d-flex align-items-center">
-                                            <a href="/contact">
+                                            <a href="mailto:customdenlie@gmail.com">
                                                 <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>
                                             </a>
                                         </div>
@@ -45,7 +45,7 @@
                                         <p class="pb-0 text-capitalize"><a class="brand-link" href="/social-media">Social Media</a></p>
                                         <p style="font-size: 16px !important;" class="pb-0">Boost your dance studio's online presence with custom graphics and strategic social media marketing. We craft compelling visuals and campaigns that engage your audience, increase followers, and enhance your brand's visibility across platforms.</p>
                                         <div class="d-flex align-items-center">
-                                            <a href="/contact">
+                                            <a href="mailto:customdenlie@gmail.com">
                                                 <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>
                                             </a>
                                         </div>
