@@ -5,7 +5,7 @@
         <div class="container py-5">
             <div class="d-md-flex justify-content-center align-items-center">
                 <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">1</span></div>
-                <h2 class="fonts-play ms-3" style="line-height: 1;">Create An Account</h2>
+                <h2 class="fonts-play ms-md-3" style="line-height: 1;">Create An Account</h2>
             </div>
 
             <form method="POST" action="{{ route('register') }}">

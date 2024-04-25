@@ -6,7 +6,7 @@
                 <section>
                     <div class="d-md-flex justify-content-center align-items-center">
                         <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">2</span></div>
-                        <h2 class="fonts-play ms-3" style="line-height: 1;">Build Your Website Bundle</h2>
+                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Build Your Website Bundle</h2>
                     </div>
                     <h2 class="fonts-play ms-3 mt-5">Choose Your Foundation</h2>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
