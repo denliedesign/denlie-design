@@ -153,7 +153,7 @@
                             <div>
                                 <h1 class="open-concept-title"><span class="open-concept-title-pop">Exclusive</span> Signature Dance Illustrations</h1>
                                 <p class="fonts-robo text-center">
-                                    All websites include unique, custom artwork that adds a personalized and artistic touch to your website.
+                                    All websites include unique artwork that adds an artistic touch to your website.
                                 </p>
 {{--                                <div class="d-flex justify-content-center">--}}
 {{--                                    <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Start Your Journey</a>--}}
