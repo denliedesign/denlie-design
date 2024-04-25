@@ -6,9 +6,10 @@
                 <section>
                     <div class="d-md-flex justify-content-center align-items-center">
                         <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">3</span></div>
-                        <h2 class="open-concept-title ms-3 my-2" style="line-height: 0.5 !important; text-align: left;">Select Services
-                            <br><span class="fonts-robo" style="font-size: 18px; font-weight: normal;">Subscription Services That Make An Impact</span>
-                        </h2>
+{{--                        <h2 class="open-concept-title ms-3 my-2" style="line-height: 0.5 !important; text-align: left;">Select Services--}}
+{{--                            <br><span class="fonts-robo" style="font-size: 18px; font-weight: normal;">Subscription Services That Make An Impact</span>--}}
+{{--                        </h2>--}}
+                        <h2 class="fonts-play ms-3" style="line-height: 1;">Select Services</h2>
                     </div>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
                         <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />
