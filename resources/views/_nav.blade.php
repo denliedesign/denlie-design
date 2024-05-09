@@ -19,6 +19,8 @@
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/online-sales">online sales</a></li>
 {{--                <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/branding">branding</a></li>--}}
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/email-marketing-suite">email marketing suite</a></li>
+                <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/family-flex-scheduler">family flex scheduler</a></li>
+                <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/ascension-level-placement">ascension level placement</a></li>
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/custom-solutions">custom solutions</a></li>
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/sitemaster-cms">sitemaster cms</a></li>
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/animation">animation</a></li>

@@ -38,6 +38,8 @@ Route::get('blog', function () {return view('blog');});
 Route::get('newsletter', function () {return view('newsletter');});
 Route::get('recital-hub', function () {return view('recital-hub');});
 Route::get('engageplus', function () {return view('engageplus');});
+Route::get('family-flex-scheduler', function () {return view('family-flex-scheduler');});
+Route::get('ascension-level-placement', function () {return view('ascension-level-placement');});
 
 Route::get('hosting-and-maintenance', function () {return view('hosting-and-maintenance');});
 Route::get('seo', function () {return view('seo');});
