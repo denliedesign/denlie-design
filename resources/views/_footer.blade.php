@@ -8,6 +8,7 @@
             <div><a style="text-decoration: none; font-size: 16px;" class="fonts-robo text-center mx-3 color-coral" href="/start-your-journey">start your journey</a></div>
             <div><span style="font-size: 16px;" class="fonts-robo text-center mx-3"><strong><a style="text-decoration: none; font-size: 16px;" class="text-muted" href="mailto:customdenlie@gmail.com">contact</a></strong> customdenlie@gmail.com</span></div>
             <div><span style="text-decoration: none; font-size: 16px;" class="fonts-robo text-center mx-3">&copy 2024 Denlie Design</span></div>
+            <div><a style="text-decoration: none; font-size: 16px;" class="fonts-robo text-center mx-3 text-dark" href="/dance-web-design">dance web design</a></div>
             <div><a style="text-decoration: none; font-size: 20px;" class="text-muted fonts-robo text-center mx-3" href="#top"><ion-icon name="arrow-up"></ion-icon></a></div>
         </div>
     </section>

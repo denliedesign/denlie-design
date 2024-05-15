@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="description" content="We create custom, dance websites that engage and convert, offering complete digital solutions through a seamless one-stop platform. Get the best dance studio website design.">
+        <meta name="description" content="@yield('description', 'We create custom, dance websites that engage and convert, offering complete digital solutions through a seamless one-stop platform. Get the best dance studio website design.')">
         <meta property="og:title" content="Denlie Design | The Best Dance Studio Web Design">
         <meta property="og:description" content="We create custom, dance websites that engage and convert, offering complete digital solutions through a seamless one-stop platform. Get the best dance studio website design.">
         <meta property="og:image" content="https://denliedesign.com/images/mdu-screen.png">
