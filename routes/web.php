@@ -36,6 +36,7 @@ Route::get('animation', function () {return view('animation');});
 Route::get('password-page', function () {return view('password-page');});
 Route::get('additional-page', function () {return view('additional-page');});
 Route::get('additional-form', function () {return view('additional-form');});
+Route::get('additional-hour', function () {return view('additional-hour');});
 Route::get('promo-feed', function () {return view('promo-feed');});
 Route::get('blog', function () {return view('blog');});
 Route::get('newsletter', function () {return view('newsletter');});

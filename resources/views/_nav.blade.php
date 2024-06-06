@@ -27,6 +27,7 @@
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/password-page">password page</a></li>
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/additional-page">additional page</a></li>
                 <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/additional-form">additional form</a></li>
+                <li class="m-3"><a style="font-size: 1em;" class="brand-link text-lowercase" href="/additional-hour">additional hour</a></li>
             </ul>
         </div>
         <div class="dropdown mx-2 mx-sm-2 mx-md-3">

@@ -89,6 +89,12 @@ class PurchaseController extends Controller
         if (in_array('custom_solutions', $addons)) {
             $lineItems[] = ['price' => 'price_1P4PBJHaney56bwrjEtiN5fG', 'quantity' => 1];
         }
+        if (in_array('family_flex_scheduler', $addons)) {
+            $lineItems[] = ['price' => 'price_1POjNSHaney56bwrNiQAr3JZ', 'quantity' => 1];
+        }
+        if (in_array('ascension_level_placement', $addons)) {
+            $lineItems[] = ['price' => 'price_1POjPHHaney56bwrqXN03B23', 'quantity' => 1];
+        }
         if (in_array('SiteMaster_CMS', $addons)) {
             $lineItems[] = ['price' => 'price_1P4PCsHaney56bwrRv4IBXZv', 'quantity' => 1];
         }
@@ -103,6 +109,9 @@ class PurchaseController extends Controller
         }
         if (in_array('additional_form', $addons)) {
             $lineItems[] = ['price' => 'price_1P4PHVHaney56bwrnQvp5x9h', 'quantity' => 1];
+        }
+        if (in_array('additional_hour', $addons)) {
+            $lineItems[] = ['price' => 'price_1POjLWHaney56bwrHp3Xgpiw', 'quantity' => 1];
         }
         if (in_array('promo_feed', $addons)) {
             $lineItems[] = ['price' => 'price_1P4PITHaney56bwrxrtEnzIC', 'quantity' => 1];
