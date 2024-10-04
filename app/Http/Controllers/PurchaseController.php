@@ -137,6 +137,7 @@ class PurchaseController extends Controller
             'customer' => $customerId, // Use the Stripe Customer ID here
             'success_url' => url('/subscriptions'),
             'cancel_url' => url('/start-your-journey'),
+            'allow_promotion_codes' => true,
         ]);
 
         // Redirect directly to the Stripe Checkout page
