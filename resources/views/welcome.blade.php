@@ -140,10 +140,10 @@
         <section class="mt-5 pt-5" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-5"><img style="filter: grayscale(100%); height: auto; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-dennis-new.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Dennis Williams <span class="open-concept-title-pop">Dancer & Developer</span></p></div>
+                    <div class="col-md-5"><img style="filter: grayscale(100%); height: auto; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-dennis-new.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Dennis Williams <span class="open-concept-title-pop">Dancer & Developer</span></p></div>
 {{--                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; object-position: top; overflow: hidden;" src="/images/contact-rachel.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Rachel Wunsch <span class="open-concept-title-pop">Designer</span></p></div>--}}
 {{--                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-emily.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Emily Roy <span class="open-concept-title-pop">Photographer</span></p></div>--}}
-                    <div class="col-7 d-flex align-items-center">
+                    <div class="col-md-7 d-flex align-items-center">
                         <div>
                             <p>
                                 From a young age, Dennis Williams was destined for a digital and creative career, thanks to his computer engineer parents who gifted him his first laptop as a child. By age 9, Dennis had built his first website using HTML, CSS, and JavaScript, and was honing his graphic design skills under the guidance of online art community tutors. His journey into the world of dance began at 15, culminating in a BFA in Dance. Since 2014, Dennis has been a valued instructor at Misty's Dance Unlimited. Inspired by collaborating with Misty Lown—owner of the studio and founder of More Than Just Great Dancing®—on her studio website, Dennis launched Denlie Design in 2019. His company now enhances the online presence of dance studios nationwide.
