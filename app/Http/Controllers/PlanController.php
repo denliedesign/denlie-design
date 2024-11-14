@@ -35,7 +35,7 @@ class PlanController extends Controller
         ];
 
         // Check for add-ons and add them to the line items
-//        $addons = $request->input('addons', []);
+        $addons = $request->input('addons', []);
 //        if (in_array('denlie', $addons)) {
 //            $lineItems[] = ['price' => 'price_1QKv5VHaney56bwrmoEcnKMM', 'quantity' => 1];
 //        }
@@ -45,18 +45,18 @@ class PlanController extends Controller
 //        if (in_array('SEO', $addons)) {
 //            $lineItems[] = ['price' => 'price_1P31pSHaney56bwraJhAaMdM', 'quantity' => 1];
 //        }
-//        if (in_array('blog_writing', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P31zYHaney56bwrs08H4eGR', 'quantity' => 1];
-//        }
+        if (in_array('blog_writing', $addons)) {
+            $lineItems[] = ['price' => 'price_1P31zYHaney56bwrs08H4eGR', 'quantity' => 1];
+        }
 //        if (in_array('email_marketing_optimization', $addons)) {
 //            $lineItems[] = ['price' => 'price_1P321SHaney56bwrwmm9fX0z', 'quantity' => 1];
 //        }
 //        if (in_array('chat', $addons)) {
 //            $lineItems[] = ['price' => 'price_1P322aHaney56bwrBuhGgl2n', 'quantity' => 1];
 //        }
-//        if (in_array('additional_professional_email', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P324THaney56bwryQnz3Mez', 'quantity' => 1];
-//        }
+        if (in_array('additional_professional_email', $addons)) {
+            $lineItems[] = ['price' => 'price_1P324THaney56bwryQnz3Mez', 'quantity' => 1];
+        }
 
         $session = $stripe->checkout->sessions->create([
             'payment_method_types' => ['card'],
