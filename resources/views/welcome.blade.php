@@ -7,9 +7,9 @@
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
                     <div class="col d-flex align-items-center">
                         <div>
-                            <h1 class="open-concept-title">The <span class="open-concept-title-pop">Best</span> Dance Studio Web Design</h1>
+                            <h1 class="open-concept-title">The Best<br><span class="open-concept-title-pop">All-Inclusive</span><br>Dance Studio Web Service</h1>
                             <div class="d-flex justify-content-center mt-4">
-                                <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Start Your Journey</a>
+                                <a href="/subscriptions" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get Denlie</a>
                             </div>
                         </div>
                     </div>
@@ -17,160 +17,103 @@
                         <img src="/images/seo-1.png" alt="dancer" class="img-fluid">
                     </div>
                 </div>
-                <h2 class="open-concept-title mt-5">Welcome to Denlie Design</h2>
+                <h2 class="open-concept-title mt-5" id="features">What is Denlie?</h2>
                 <p class="fonts-robo text-center">
-                    At Denlie Design, we create custom, dance-centric websites that engage and convert, offering complete digital solutions through a seamless one-stop platform.
+                    Denlie is a comprehensive suite of tools designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families.
                 </p>
-                <div class="mt-4 row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-4">
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/BW_1.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Dance Expertise<br><span style="font-size: 16px;">Endorsed by industry leaders and designed for dance studios to enhance community impact.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/BW_2.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Customized Design<br><span style="font-size: 16px;"> Every site is uniquely built from scratch, tailored to your studio’s specific needs.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/BW_3.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Dance Parent Engagement<br><span style="font-size: 16px;">Focused on crafting user experiences that resonate with dance parents and drive enrollments.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/BW_4.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">One-Stop Solutions<br><span style="font-size: 16px;">Comprehensive digital services from design to e-commerce, streamlined for your convenience.</span></div></div></div>
-                </div>
-            </section>
-            <section class="my-5 pb-5">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                    <div class="col-sm d-flex justify-content-end">
-                        <img src="/images/seo-2.png" alt="dancer" class="img-fluid">
-                    </div>
-                    <div class="col d-flex align-items-center">
-                        <div style="position: relative;">
-                            <img src="/images/logo-mtjgd-new.png" alt="" class="img-fluid d-none d-md-block" style="opacity: 33%; width: 500px; height: auto; top: 33%; right: -200px; transform: rotate(90deg); position: absolute;">
-                            <h1 class="open-concept-title" style="position: relative; z-index: 2;">Dance Expertise</h1>
-                            <p class="fonts-robo text-center" style="position: relative; z-index: 2;">
-                                With deep roots in the dance community and partnerships with leaders like Misty Lown, Denlie Design leverages authentic industry insights to create websites that truly embody the spirit of dance. Our designs are not only recommended by More Than Just Great Dancing!® but also integrate their proven principles to help your studio thrive.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Shop with Experts</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="py-5 my-5">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                    <div class="col d-flex justify-content-center d-md-none">
-                        <img src="/images/seo-3.png" alt="dancer" class="img-fluid">
-                    </div>
-                    <div class="col d-flex align-items-center">
-                        <div>
-                            <h1 class="open-concept-title">Customized Design</h1>
-                            <p class="fonts-robo text-center">
-                                At Denlie Design, we believe in the power of customization. From the initial concept to the final design, every element is crafted to meet your specific needs, free from the limitations of templates and generic plugins. Our custom-built content management systems are tailored to make site management straightforward and efficient, ensuring that your website is as unique as your studio.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Customize Your Site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col d-none d-md-flex justify-content-center">
-                        <img src="/images/seo-3.png" alt="dancer" class="img-fluid">
-                    </div>
-                </div>
-            </section>
-
-            <section class="py-5 my-5">
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
                     <div class="col-sm d-flex justify-content-center">
                         <img src="/images/seo-4.png" alt="dancer" class="img-fluid">
                     </div>
-                    <div class="col d-flex align-items-center">
-                        <div>
-                            <h1 class="open-concept-title">Dance Parent Engagement</h1>
-                            <p class="fonts-robo text-center">
-                                Our focus is on the user experience of dance parents—creating websites that not only look great but also function effectively to meet their needs. By understanding what drives dance parents, we design sites that enhance engagement and convert visitors into active members of your studio family, thereby increasing enrollment and expanding your community impact.                            </p>
-                            <div class="d-flex justify-content-center">
-                                <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Engage Your Audience</a>
-                            </div>
-                        </div>
+                    <div class="col-sm d-flex justify-content-center align-items-center">
+                        <ul>
+                            <li>Responsive Web Design</li>
+                            <li>On-The-Go Editing Capabilities</li>
+                            <li>Active Search Engine Optimization (SEO) Campaigns</li>
+                            <li>Engagement & Conversion Funnel</li>
+                            <li>Live Chat or AI Chat Bots</li>
+                            <li>Class Management & Filtering for Families</li>
+                            <li>Direct Online Purchasing</li>
+                            <li>Trial Class Booking System</li>
+                            <li>Automated Email Communications</li>
+                            <li>Data Insights</li>
+                            <li>Engagement Hub</li>
+                            <li>Student Database & Level Placement System</li>
+                            <li>Domain, Professional Email, Hosting & Maintenance</li>
+                        </ul>
                     </div>
                 </div>
             </section>
 
             <section class="py-5 my-5">
                 <div>
-                    <h1 class="open-concept-title">One-Stop Solutions</h1>
+                    <h1 class="open-concept-title" id="pricing">How To Get More Students</h1>
                     <p class="fonts-robo text-center">
-                        We offer a full spectrum of web services—from design and development to marketing and e-commerce—all in one place. This not only streamlines the process but ensures that every element of your online presence works in harmony.
-                        <br><br>
-                        Our platform simplifies the purchasing process. Instead of navigating multiple vendors, negotiating contracts, and managing separate invoices, you can select, customize, and pay for services directly through our website. This integration reduces turnaround times and administrative hassle, allowing you to focus on what matters most—your dance community.
+                        With An Enhanced User Journey
                     </p>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-4">
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_1.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Design<br><span style="font-size: 16px;">Tailored web design, branding, and user-friendly mobile interfaces enhanced with UI/UX optimization for a visually appealing experience.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_2.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Development<br><span style="font-size: 16px;">Comprehensive website building including CMS customization and advanced functionalities for a robust online presence.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_3.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Marketing<br><span style="font-size: 16px;">Full spectrum of digital marketing from SEO and PPC to social media and content strategies to boost visibility and engagement.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_4.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">E-Commerce<br><span style="font-size: 16px;">Integration of online sales platforms, from digital courses via LMS to physical merchandise sales, streamlined for ease of use.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_5.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Maintenance<br><span style="font-size: 16px;">Ongoing support including regular updates, security checks, and backups to ensure your website operates flawlessly.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_6.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Hosting<br><span style="font-size: 16px;">Reliable web hosting services with domain management and SSL certification for secure and uninterrupted online access.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_8.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Multimedia<br><span style="font-size: 16px;">Creative services including photography, illustration, and animation to enhance your website’s visual impact.</span></div></div></div>
-                    <div class="col my-2"><div class=""><div class="d-flex justify-content-center"><img src="/images/icons/Color_7.png" class="img-fluid" style="height: 259px; width: auto;" alt=""></div><div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Support<br><span style="font-size: 16px;">Comprehensive customer support solutions including chatbots, web forms, and strategic consulting to foster continuous improvement.</span></div></div></div>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get All-In-One Solutions</a>
-                </div>
-            </section>
-
-            <section class="my-5 py-5">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                        <div class="col d-none d-md-block" style="position: relative;">
-                            {{--                        <img src="/images/dance-website-photography.jpg" alt="dancer" class="img-fluid">--}}
-                            <img src="/images/dance-website-photography.jpg" alt="dance photography" class="img-fluid" style="position: absolute; bottom: -125px; right: 125px; z-index: 2; transform: scale(0.7); height: 500px; width: auto;">
-                            <img src="/images/dance-website-photography-3.jpg" alt="dance photography" class="img-fluid" style="position: absolute; top: -125px; left: 75px; z-index: 1; transform: scale(0.8); height: 500px; width: auto;">
-
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 1: Start with a Beautiful New Site<br><span style="font-size: 16px;">A responsive design, coded from scratch. No more fussing around with Wordpress, Squarespace, or Wix. Editing capabilities built directly into the website make updates as easy as posting on your social media.</span></div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="On average, a custom website with responsive design, coded from scratch with built-in editing capabilities, can cost anywhere from $5,000 to $15,000 or more, depending on the complexity and specific requirements of the site.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
                         </div>
-                        <div class="col d-block d-md-none">
-                            <div class="d-flex justify-content-center">
-                                <img src="/images/dance-website-photography.jpg" alt="dance photography" class="img-fluid" style="height: 500px; width: auto;">
-                            </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 2: Be First in Every Search<br><span style="font-size: 16px;">Our active Search Engine Optimization (SEO) campaigns aim to position your new website as the top result for every dance style, every age group, and in your city—as well as in neighboring areas.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 2, involving active SEO campaigns designed to rank your website at the top for various searches, typically costs between $500 to $2,000 per month. This range can increase significantly depending on the competitiveness of the keywords, the geographic focus, and the scope of ongoing SEO activities.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
                         </div>
-                        <div class="col d-flex align-items-center">
-                            <div>
-                                <h1 class="open-concept-title"><span class="open-concept-title-pop">Vibrant</span> Dance Photography</h1>
-                                <p class="fonts-robo text-center">
-                                    All websites include dynamic, high-quality images that capture the energy and artistry of dance.
-                                </p>
-{{--                                <div class="d-flex justify-content-center">--}}
-{{--                                    <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Start Your Journey</a>--}}
-{{--                                </div>--}}
-                            </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 3: Say Hello to Every Visitor<br><span style="font-size: 16px;">Receive notifications whenever a new user browses your site, enabling you to offer immediate live chat assistance. Alternatively, you can utilize a personalized studio-trained AI chatbot to promptly answer any questions they may have.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 3, which includes notifications for new site visitors and live chat or AI chatbot capabilities, typically costs between $200 to $1,000 per month. This cost varies based on the complexity of the chatbot, the level of customization required, and the service provider chosen for live chat implementation and maintenance.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
+                        </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 4: Present Them Their Perfect Fit<br><span style="font-size: 16px;">Our website's advanced filtering tools streamline the search for dance classes by age, style, and schedule, increasing the likelihood that families will enroll in multiple classes that conveniently meet their needs.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 4, involving advanced filtering tools on a website to help users find dance classes by age, style, and schedule, can typically cost between $1,000 and $3,000 as a one-time development fee. This cost may vary depending on the complexity of the filters and the integration required with the website's existing systems.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
+                        </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 5: Give Them Shopping Cart Convenience<br><span style="font-size: 16px;">Users easily add their chosen classes to their cart and proceed to checkout directly on your website. For those unsure about committing, a trial class form provides a no-stress way to experience your studio firsthand, boosting confidence in the decision.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 5, which includes integrating a shopping cart system for class enrollment and a trial class form on your website, typically costs between $1,500 and $5,000 as a one-time development fee. The range depends on the e-commerce platform used, the level of customization required, and the complexity of the checkout and trial registration processes.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
+                        </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 6: Follow-Up With Automation<br><span style="font-size: 16px;">After registration, automated emails confirm enrollment and provide all necessary details for the first class. Reminder emails nudge incomplete enrollments to completion. Promotional emails advertise new offerings, keeping all visitors engaged throughout the season.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 6, involving the setup of automated email follow-ups for class registration confirmations, reminders, and promotions, typically costs between $500 and $2,000 for initial setup. This fee includes integrating the email automation system with your website and database, as well as crafting the initial templates and automation rules. Ongoing costs may apply for email service provider fees and maintenance.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
+                        </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 7: Keep Your Family Connected<br><span style="font-size: 16px;">Newsletters, blog posts, and a promotional feed keep your families informed. Our unique and popular Recital Hub feature serves as the go-to source for all recital-related information. Our Level Placement System streamlines and personalizes student progress results.</span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 7, which includes the integration of newsletters, blog posts, a promotional feed, a Recital Hub, and a Level Placement System to keep families connected and informed, typically costs between $2,000 and $5,000 for initial development. This fee covers the setup of content management systems, recital hub features, and student progress tracking tools. There may also be ongoing costs for content creation, system maintenance, and updates.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
+                        </div>
+                    </div>
+                    <div class="col my-5 px-5"><img src="/images/" class="img-fluid" alt=""><div class="text-center fonts-robo" style="line-height: 1 !important;">Step 8: Data for Continual Refinement<br><span style="font-size: 16px;">Google Analytics, SEO reports, and data insights from your site converge to provide a comprehensive overview. This helps track user behavior and performance metrics, enabling us to refine strategies and optimize your website's effectiveness continuously. </span></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                            <a data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-content="Step 8, involving the integration of Google Analytics, SEO reporting tools, and other data insight systems to track user behavior and performance metrics, typically costs between $500 and $2,000 for initial setup. This includes configuring the analytics and reporting tools on your website and training on how to interpret the data. Ongoing costs may also be incurred for detailed reports, additional data analysis services, and periodic optimizations based on insights gained.">
+                                <img src="/images/chatgpt-icon.png" style="height: 32px; width: auto;"></a>
+                            <span class="ms-2 text-muted" style="font-size: 16px;"><em>On average, how much does this feature cost?</em></span>
                         </div>
                     </div>
                 </div>
+                <div class="text-center fonts-robo" style="height: 150px; line-height: 1 !important;">Get more students for just $449/mo with <strong>no setup fee!</strong><br><span style="font-size: 16px;"><a href="/subscriptions" class="mt-3 fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get Denlie</a></span></div>
             </section>
 
-            <section class="my-5 py-5">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                        <div class="col d-block d-md-none">
-                            <div class="d-flex justify-content-center">
-                                <img src="/images/icons/Color_10.png" alt="illustration" class="img-fluid" style="height: 500px; width: auto;">
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-center">
-                            <div>
-                                <h1 class="open-concept-title"><span class="open-concept-title-pop">Exclusive</span> Signature Dance Illustrations</h1>
-                                <p class="fonts-robo text-center">
-                                    All websites include unique artwork that adds an artistic touch to your website.
-                                </p>
-{{--                                <div class="d-flex justify-content-center">--}}
-{{--                                    <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Start Your Journey</a>--}}
-{{--                                </div>--}}
-                            </div>
-                        </div>
-                        <div class="col d-none d-md-block" style="position: relative;">
-                            <div>
-                                <img src="/images/icons/BW_10.png" alt="illustration" class="img-fluid" style="position: absolute; bottom: -125px; right: 125px; z-index: 1; transform: scale(0.7); height: 500px; width: auto;">
-                                <img src="/images/icons/Color_10.png" alt="illustration" class="img-fluid" style="position: absolute; top: -125px; left: 75px; z-index: 2; transform: scale(0.8); height: 500px; width: auto;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="my-5">
+            <section class="my-5" id="testimonials">
                 <x-testimonial order="odd" background="yellow" state="WISCONSIN" scroll="mdu-new" logo="mdu" studio="Misty's Dance Unlimited" quote="Grateful! Denlie Designs has been highly responsive and skilled at customizing our sites to our ever-changing needs."  />
                 <x-testimonial order="even" background="peach" state="NEW YORK" scroll="bgdc" logo="bgdc" studio="Breaking Ground Dance Center" quote="Dennis is the easiest and nicest web designer to work with. He responds quickly, does amazing work and helped see our vision come to life!"  />
                 <x-testimonial order="odd" background="coral" state="NEW YORK" scroll="aim" logo="aim" studio="Attitudes In Motion" quote="We had the pleasure of working with Dennis to launch our new site.  He is a true professional who takes the time to understand your business needs and goals to ensure the end result is as expected.  His action is swift, always very fast to respond to questions and share ideas.  Highly recommend his service."  />
@@ -193,21 +136,24 @@
 
 {{--        </div>--}}
 
-        <section class="my-2 py-2">
-            <div class="container text-center">
-                <a href="/start-your-journey" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get Started Today</a> <strong>with the best dance studio website design.</strong>
-            </div>
-        </section>
 
-        <section class="mt-5 pt-5">
+        <section class="mt-5 pt-5" id="about">
             <div class="container">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
-                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-dennis-new.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Dennis Williams <span class="open-concept-title-pop">Developer</span></p></div>
-                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; object-position: top; overflow: hidden;" src="/images/contact-rachel.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Rachel Wunsch <span class="open-concept-title-pop">Designer</span></p></div>
-                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-emily.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Emily Roy <span class="open-concept-title-pop">Photographer</span></p></div>
+                <div class="row">
+                    <div class="col-5"><img style="filter: grayscale(100%); height: auto; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-dennis-new.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Dennis Williams <span class="open-concept-title-pop">Dancer & Developer</span></p></div>
+{{--                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; object-position: top; overflow: hidden;" src="/images/contact-rachel.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Rachel Wunsch <span class="open-concept-title-pop">Designer</span></p></div>--}}
+{{--                    <div class="col-sm"><img style="filter: grayscale(100%); height: 500px; width: 100%; object-fit: cover; overflow: hidden;" src="/images/contact-emily.jpg" alt="" class="img-fluid rounded"><p class="text-center fonts-robo">Emily Roy <span class="open-concept-title-pop">Photographer</span></p></div>--}}
+                    <div class="col-7 d-flex align-items-center">
+                        <div>
+                            <p>
+                                From a young age, Dennis Williams was destined for a digital and creative career, thanks to his computer engineer parents who gifted him his first laptop as a child. By age 9, Dennis had built his first website using HTML, CSS, and JavaScript, and was honing his graphic design skills under the guidance of online art community tutors. His journey into the world of dance began at 15, culminating in a BFA in Dance. Since 2014, Dennis has been a valued instructor at Misty's Dance Unlimited. Inspired by collaborating with Misty Lown—owner of the studio and founder of More Than Just Great Dancing®—on her studio website, Dennis launched Denlie Design in 2019. His company now enhances the online presence of dance studios nationwide.
+                            </p>
+                            <a href="/subscriptions" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get Denlie</a>
+                            <strong>&nbsp;, where dance expertise leads to innovative web solutions.</strong>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-
 @endsection

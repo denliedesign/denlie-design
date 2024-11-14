@@ -58,18 +58,23 @@ Route::get('additional-professional-email', function () {return view('additional
 Route::get('ppc', function () {return view('ppc');});
 Route::get('social-media', function () {return view('social-media');});
 
+
+Route::get('start-your-journey', function () {return view('start-your-journey');});
+Route::get('subscriptions', function () {return view('subscriptions');});
+
+
 //Route::get('/success', [PurchaseController::class, 'index'])->middleware('auth');
 Route::get('/dashboard', [PurchaseController::class, 'index'])->middleware('auth');
 
-Route::get('start-your-journey', function () {
-    $user = Auth::user(); // Retrieve the authenticated user
-    return view('start-your-journey', ['user' => $user]);
-})->middleware(['auth', 'verified'])->name('start-your-journey');
-
-Route::get('subscriptions', function () {
-    $user = Auth::user(); // Retrieve the authenticated user
-    return view('subscriptions', ['user' => $user]);
-})->middleware(['auth', 'verified'])->name('subscriptions');
+//Route::get('start-your-journey', function () {
+//    $user = Auth::user(); // Retrieve the authenticated user
+//    return view('start-your-journey', ['user' => $user]);
+//})->middleware(['auth', 'verified'])->name('start-your-journey');
+//
+//Route::get('subscriptions', function () {
+//    $user = Auth::user(); // Retrieve the authenticated user
+//    return view('subscriptions', ['user' => $user]);
+//})->middleware(['auth', 'verified'])->name('subscriptions');
 
 //Route::get('/dashboard', function () {
 //    $user = Auth::user(); // Retrieve the authenticated user

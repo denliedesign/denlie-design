@@ -5,59 +5,64 @@
             <div class="container py-5">
                 <section>
                     <div class="d-md-flex justify-content-center align-items-center">
-                        <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">3</span></div>
-{{--                        <h2 class="open-concept-title ms-3 my-2" style="line-height: 0.5 !important; text-align: left;">Select Services--}}
-{{--                            <br><span class="fonts-robo" style="font-size: 18px; font-weight: normal;">Subscription Services That Make An Impact</span>--}}
-{{--                        </h2>--}}
-                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Select Services</h2>
+                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Get Denlie</h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
-                        <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />
-                        <x-package icon="BW_2" item="SEO" cost="299/mo" description="Be seen with with targeted keyword optimization, strategic content enhancement, Google integration, and competitor analysis, ensuring top search engine rankings and increased online visibility." />
-                        <x-package icon="BW_3" item="blog writing" cost="49/mo" description="Leverage my personal dance experience and SEO expertise, combined with powerful AI technology, to craft engaging blog content for your site. Includes one post per month, with the option to add more for increased frequency." />
-                        <x-package icon="BW_4" item="email marketing optimization" cost="199/mo" description="Enhance your email campaigns with our service, offering regular performance analysis, content updates, list segmentation adjustments, and technical support, making minor optimizations to maximize engagement. *Requires Email Marketing Suite" />
-                        <x-package icon="BW_5" item="chat" cost="119/mo" description="Live chat and chatbot services setup, integration, team training, and ongoing management, ensuring seamless communication with your visitors." />
-                        <x-package icon="BW_6" item="additional professional email" cost="8/mo" description="Set up of an extra Google Workspace user email account that utilizes your own domain name and ensures a professional touch to your online communication." />
-                        <div class="col my-2">
-                            <div class="card bg-warm" style="border: none;">
-                                <div class="card-body">
-                                    <div class="">
-                                        <img src="/images/icons/BW_7.png" class="img-fluid" style="height: 259px; width: auto;" alt="">
-                                    </div>
-                                    <div class="fonts-robo" style="height: auto; line-height: 1 !important;">
-                                        <p class="pb-0 text-capitalize"><a class="brand-link" href="/ppc">PPC</a></p>
-                                        <p style="font-size: 16px !important;" class="pb-0">Drive targeted traffic to your dance studio's website with our Pay-Per-Click advertising service. We handle strategy, setup, management, and optimization of ads, maximizing your return on investment.</p>
-                                        <div class="d-flex align-items-center">
-                                            <a href="mailto:customdenlie@gmail.com">
-                                                <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col my-2">
-                            <div class="card bg-warm" style="border: none;">
-                                <div class="card-body">
-                                    <div class="">
-                                        <img src="/images/icons/BW_8.png" class="img-fluid" style="height: 259px; width: auto;" alt="">
-                                    </div>
-                                    <div class="fonts-robo" style="height: auto; line-height: 1 !important;">
-                                        <p class="pb-0 text-capitalize"><a class="brand-link" href="/social-media">Social Media</a></p>
-                                        <p style="font-size: 16px !important;" class="pb-0">Boost your dance studio's online presence with custom graphics and strategic social media marketing. We craft compelling visuals and campaigns that engage your audience, increase followers, and enhance your brand's visibility across platforms.</p>
-                                        <div class="d-flex align-items-center">
-                                            <a href="mailto:customdenlie@gmail.com">
-                                                <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-{{--                        <x-package icon="icon-7" item="social media" cost="299/mo" description="Social media marketing and graphics. Price TBD." />--}}
-{{--                        <x-package icon="icon-4" item="PPC" cost="499/mo" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, provident?" />--}}
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
+                        <x-package icon="BW_8" item="Denlie" cost="449/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
                     </div>
                 </section>
+{{--                <hr class="my-5">--}}
+{{--                <section>--}}
+{{--                    <div class="d-md-flex justify-content-center align-items-center">--}}
+{{--                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Build Your Own Services</h2>--}}
+{{--                    </div>--}}
+{{--                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">--}}
+{{--                        <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />--}}
+{{--                        <x-package icon="BW_2" item="SEO" cost="299/mo" description="Be seen with with targeted keyword optimization, strategic content enhancement, Google integration, and competitor analysis, ensuring top search engine rankings and increased online visibility." />--}}
+{{--                        <x-package icon="BW_3" item="blog writing" cost="49/mo" description="Leverage my personal dance experience and SEO expertise, combined with powerful AI technology, to craft engaging blog content for your site. Includes one post per month, with the option to add more for increased frequency." />--}}
+{{--                        <x-package icon="BW_4" item="email marketing optimization" cost="199/mo" description="Enhance your email campaigns with our service, offering regular performance analysis, content updates, list segmentation adjustments, and technical support, making minor optimizations to maximize engagement. *Requires Email Marketing Suite" />--}}
+{{--                        <x-package icon="BW_5" item="chat" cost="119/mo" description="Live chat and chatbot services setup, integration, team training, and ongoing management, ensuring seamless communication with your visitors." />--}}
+{{--                        <x-package icon="BW_6" item="additional professional email" cost="8/mo" description="Set up of an extra Google Workspace user email account that utilizes your own domain name and ensures a professional touch to your online communication." />--}}
+{{--                        <div class="col my-2">--}}
+{{--                            <div class="card bg-warm" style="border: none;">--}}
+{{--                                <div class="card-body">--}}
+{{--                                    <div class="">--}}
+{{--                                        <img src="/images/icons/BW_7.png" class="img-fluid" style="height: 259px; width: auto;" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="fonts-robo" style="height: auto; line-height: 1 !important;">--}}
+{{--                                        <p class="pb-0 text-capitalize"><a class="brand-link" href="/ppc">PPC</a></p>--}}
+{{--                                        <p style="font-size: 16px !important;" class="pb-0">Drive targeted traffic to your dance studio's website with our Pay-Per-Click advertising service. We handle strategy, setup, management, and optimization of ads, maximizing your return on investment.</p>--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+{{--                                            <a href="mailto:customdenlie@gmail.com">--}}
+{{--                                                <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>--}}
+{{--                                            </a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col my-2">--}}
+{{--                            <div class="card bg-warm" style="border: none;">--}}
+{{--                                <div class="card-body">--}}
+{{--                                    <div class="">--}}
+{{--                                        <img src="/images/icons/BW_8.png" class="img-fluid" style="height: 259px; width: auto;" alt="">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="fonts-robo" style="height: auto; line-height: 1 !important;">--}}
+{{--                                        <p class="pb-0 text-capitalize"><a class="brand-link" href="/social-media">Social Media</a></p>--}}
+{{--                                        <p style="font-size: 16px !important;" class="pb-0">Boost your dance studio's online presence with custom graphics and strategic social media marketing. We craft compelling visuals and campaigns that engage your audience, increase followers, and enhance your brand's visibility across platforms.</p>--}}
+{{--                                        <div class="d-flex align-items-center">--}}
+{{--                                            <a href="mailto:customdenlie@gmail.com">--}}
+{{--                                                <button class="btn btn-teal color-warm shadow rounded">Contact Me</button>--}}
+{{--                                            </a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <x-package icon="icon-7" item="social media" cost="299/mo" description="Social media marketing and graphics. Price TBD." />--}}
+{{--                        <x-package icon="icon-4" item="PPC" cost="499/mo" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, provident?" />--}}
+{{--                    </div>--}}
+{{--                </section>--}}
             </div>
         </div>
         <div id="sideCart" class="col-5 col-sm-5 col-md-3 col-lg-3 bg-teal rounded pb-5" style="position: fixed; height: 70vh; right: 0; overflow-y: scroll;">
