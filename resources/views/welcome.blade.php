@@ -7,9 +7,9 @@
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
                     <div class="col d-flex align-items-center" style="border-right: 1px solid grey;">
                         <div>
-                            <h1 class="open-concept-title">Ultimate Enrollment Bundle<br><span class="open-concept-title-pop"></span></h1>
+                            <h1 class="open-concept-title">Ultimate Enrollment Package<br><span class="open-concept-title-pop"></span></h1>
                             <div class="d-flex justify-content-center">
-                                <div style="font-size: 14px;">Learn How to Boost Enrollment</div>
+                                <div style="font-size: 14px;">Get More Students with the Enhanced User Journey</div>
                             </div>
                             <div class="d-flex justify-content-center mt-4">
                                 <a href="/denlie-bundle" class="fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Denlie Bundle</a>
@@ -20,7 +20,7 @@
                         <div>
                             <h1 class="open-concept-title">Custom Designs & Solutions<br><span class="open-concept-title-pop"></span></h1>
                             <div class="d-flex justify-content-center">
-                                <div style="font-size: 14px;">On-Demand & Full-Service, Meet the "Custom Guy"</div>
+                                <div style="font-size: 14px;">On-Demand & Full-Service, Say Hello to the "Custom Crew"</div>
 {{--                                <div style="font-size: 14px; font-weight: 700; color: #B12729;">Hurry, Only 4 Spots Available - Secure Yours Today!</div>--}}
                             </div>
                             <div class="d-flex justify-content-center mt-4">
@@ -64,6 +64,11 @@
                     </tr>
                     <tr>
                         <td>Custom Refresh</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Branding</td>
                         <td class="text-center">-</td>
                         <td class="text-center">&check;</td>
                     </tr>
@@ -125,6 +130,11 @@
                     <tr>
                         <td>Hosting And Maintenance</td>
                         <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Unlimited Monthly Edits</td>
+                        <td class="text-center">-</td>
                         <td class="text-center">&check;</td>
                     </tr>
                     <tr>
