@@ -27,35 +27,39 @@ class PlanController extends Controller
 //            $customerId = $customer->id;
 //        }
 
-        $lineItems = [
-            [
-                'price' => 'price_1QKv5VHaney56bwrmoEcnKMM', // Replace with your actual price ID for the custom website
-                'quantity' => 1,
-            ]
-        ];
+        $lineItems = [];
 
         // Check for add-ons and add them to the line items
         $addons = $request->input('addons', []);
-//        if (in_array('denlie', $addons)) {
-//            $lineItems[] = ['price' => 'price_1QKv5VHaney56bwrmoEcnKMM', 'quantity' => 1];
-//        }
-//        if (in_array('hosting_and_maintenance', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P31niHaney56bwruz9pUg7f', 'quantity' => 1];
-//        }
-//        if (in_array('SEO', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P31pSHaney56bwraJhAaMdM', 'quantity' => 1];
-//        }
+        if (in_array('denlie_bundle', $addons)) {
+            $lineItems[] = ['price' => 'price_1QKv5VHaney56bwrmoEcnKMM', 'quantity' => 1];
+        }
+        if (in_array('custom_denlie', $addons)) {
+            $lineItems[] = ['price' => 'price_1QLdveHaney56bwrxly8KFES', 'quantity' => 1];
+        }
+        if (in_array('hosting_and_maintenance', $addons)) {
+            $lineItems[] = ['price' => 'price_1P31niHaney56bwruz9pUg7f', 'quantity' => 1];
+        }
+        if (in_array('SEO', $addons)) {
+            $lineItems[] = ['price' => 'price_1P31pSHaney56bwraJhAaMdM', 'quantity' => 1];
+        }
         if (in_array('blog_writing', $addons)) {
             $lineItems[] = ['price' => 'price_1P31zYHaney56bwrs08H4eGR', 'quantity' => 1];
         }
-//        if (in_array('email_marketing_optimization', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P321SHaney56bwrwmm9fX0z', 'quantity' => 1];
-//        }
-//        if (in_array('chat', $addons)) {
-//            $lineItems[] = ['price' => 'price_1P322aHaney56bwrBuhGgl2n', 'quantity' => 1];
-//        }
+        if (in_array('email_marketing_optimization', $addons)) {
+            $lineItems[] = ['price' => 'price_1P321SHaney56bwrwmm9fX0z', 'quantity' => 1];
+        }
+        if (in_array('chat', $addons)) {
+            $lineItems[] = ['price' => 'price_1P322aHaney56bwrBuhGgl2n', 'quantity' => 1];
+        }
         if (in_array('additional_professional_email', $addons)) {
             $lineItems[] = ['price' => 'price_1P324THaney56bwryQnz3Mez', 'quantity' => 1];
+        }
+
+        if (empty($lineItems)) {
+            // Handle the case where no add-ons are selected
+            // For example, return an error message or redirect to an information page
+            return redirect()->back()->with('error', 'Please select at least one add-on to proceed.');
         }
 
         $session = $stripe->checkout->sessions->create([

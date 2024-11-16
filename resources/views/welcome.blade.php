@@ -42,89 +42,109 @@
                 </div>
             </section>
 
-{{--            <section>--}}
-{{--                <table class="table" id="comparison-chart">--}}
-{{--                    <thead>--}}
-{{--                    <tr>--}}
-{{--                        <th scope="col" class="text-center"></th>--}}
-{{--                        <th scope="col" class="text-center">Denlie Bundle</th>--}}
-{{--                        <th scope="col" class="text-center">Custom Denlie</th>--}}
-{{--                    </tr>--}}
-{{--                    </thead>--}}
-{{--                    <tbody>--}}
-{{--                    <tr>--}}
-{{--                        <td>Custom Design</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Licensed Design</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Custom Refresh</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Online Sales</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Email Marketing Suite</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Custom Solutions</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Family Flex Scheduler</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Ascension Level Placement</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>SiteMaster CMS</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Animation</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Password Page</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Additional Pages</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>Additional Forms</td>--}}
-{{--                        <td class="text-center">-</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    <tr>--}}
-{{--                        <td>EngagePlus</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                        <td class="text-center">&check;</td>--}}
-{{--                    </tr>--}}
-{{--                    </tbody>--}}
-{{--                </table>--}}
-{{--            </section>--}}
+            <section>
+                <table class="table" id="comparison-chart">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="text-center"></th>
+                        <th scope="col" class="text-center">Denlie Bundle</th>
+                        <th scope="col" class="text-center">Custom Denlie</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Custom Design</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Licensed Design</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">-</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Refresh</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Online Sales</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Email Marketing Suite</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Solutions</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Family Flex Scheduler</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Ascension Level Placement</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>SiteMaster CMS</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">-</td>
+                    </tr>
+                    <tr>
+                        <td>Animation</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Password Pages</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Pages</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Forms</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>EngagePlus</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Hosting And Maintenance</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>SEO</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Email Marketing Optimization</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Chat</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
 
             <section class="mt-5 pt-5">
                 <div class="container">

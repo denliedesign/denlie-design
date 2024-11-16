@@ -8,8 +8,8 @@
                         <h2 class="fonts-play ms-md-3" style="line-height: 1;"></h2>
                     </div>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                        <x-package icon="BW_8" item="Denlie Bundle" cost="449/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
-                        <x-package icon="BW_4" item="Custom Denlie" cost="2499/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
+                        <x-package icon="BW_8" item="denlie bundle" cost="449/mo" description="Dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
+                        <x-package icon="BW_4" item="custom denlie" cost="2499/mo" description="Designed for dance studios that demand excellence and flexibility, our service offers unmatched customization and ongoing web management. Experience the ease of having a personal web expert dedicated to adapting your site as your studio evolves." />
                     </div>
                 </section>
                 <hr class="my-5">
@@ -18,11 +18,11 @@
                         <h2 class="fonts-play ms-md-3" style="line-height: 1;">Build Your Own Bundle Subscriptions</h2>
                     </div>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
-{{--                        <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />--}}
-{{--                        <x-package icon="BW_2" item="SEO" cost="299/mo" description="Be seen with with targeted keyword optimization, strategic content enhancement, Google integration, and competitor analysis, ensuring top search engine rankings and increased online visibility." />--}}
+                        <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />
+                        <x-package icon="BW_2" item="SEO" cost="299/mo" description="Be seen with with targeted keyword optimization, strategic content enhancement, Google integration, and competitor analysis, ensuring top search engine rankings and increased online visibility." />
                         <x-package icon="BW_3" item="blog writing" cost="49/mo" description="Leverage my personal dance experience and SEO expertise, combined with powerful AI technology, to craft engaging blog content for your site. Includes one post per month, with the option to add more for increased frequency." />
-{{--                        <x-package icon="BW_4" item="email marketing optimization" cost="199/mo" description="Enhance your email campaigns with our service, offering regular performance analysis, content updates, list segmentation adjustments, and technical support, making minor optimizations to maximize engagement. *Requires Email Marketing Suite" />--}}
-{{--                        <x-package icon="BW_5" item="chat" cost="119/mo" description="Live chat and chatbot services setup, integration, team training, and ongoing management, ensuring seamless communication with your visitors." />--}}
+                        <x-package icon="BW_4" item="email marketing optimization" cost="199/mo" description="Enhance your email campaigns with our service, offering regular performance analysis, content updates, list segmentation adjustments, and technical support, making minor optimizations to maximize engagement. *Requires Email Marketing Suite" />
+                        <x-package icon="BW_5" item="chat" cost="119/mo" description="Live chat and chatbot services setup, integration, team training, and ongoing management, ensuring seamless communication with your visitors." />
                         <x-package icon="BW_6" item="additional professional email" cost="8/mo" description="Set up of an extra Google Workspace user email account that utilizes your own domain name and ensures a professional touch to your online communication." />
 {{--                        <div class="col my-2">--}}
 {{--                            <div class="card bg-warm" style="border: none;">--}}
