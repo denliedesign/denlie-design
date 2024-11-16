@@ -108,6 +108,16 @@
                         <td class="text-center">&check;</td>
                     </tr>
                     <tr>
+                        <td>Dance Photo Gallery Access</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
+                        <td>Exclusive Dance Illustrations</td>
+                        <td class="text-center">&check;</td>
+                        <td class="text-center">&check;</td>
+                    </tr>
+                    <tr>
                         <td>Password Pages</td>
                         <td class="text-center">-</td>
                         <td class="text-center">&check;</td>
