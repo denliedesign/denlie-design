@@ -115,3 +115,12 @@ p, a, div, button { font-size: 24px; }
 .popover-arrow::after {
     border-right-color: #212121 !important;
 }
+
+#comparison-chart {
+    --bs-table-bg: none !important;
+    background: white;
+}
+
+#comparison-chart tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray color */
+}

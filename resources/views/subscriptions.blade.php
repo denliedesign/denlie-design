@@ -5,16 +5,17 @@
             <div class="container py-5">
                 <section>
                     <div class="d-md-flex justify-content-center align-items-center">
-                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Get Denlie</h2>
+                        <h2 class="fonts-play ms-md-3" style="line-height: 1;"></h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
-                        <x-package icon="BW_8" item="Denlie" cost="449/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                        <x-package icon="BW_8" item="Denlie Bundle" cost="449/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
+                        <x-package icon="BW_4" item="Custom Denlie" cost="2499/mo" description="All-inclusive dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
                     </div>
                 </section>
                 <hr class="my-5">
-                <section>
+                <section id="byob">
                     <div class="d-md-flex justify-content-center align-items-center">
-                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Add-Ons</h2>
+                        <h2 class="fonts-play ms-md-3" style="line-height: 1;">Build Your Own Bundle Subscriptions</h2>
                     </div>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
 {{--                        <x-package icon="BW_1" item="hosting and maintenance" cost="129/mo" description="Includes fast, secure hosting, regular maintenance, proactive security, professional email, and 1 hour of content updates monthly, ensuring your site stays fresh and functional." />--}}

@@ -43,21 +43,21 @@ class PurchaseController extends Controller
         $stripe = new StripeClient(env('STRIPE_SECRET'));
 
         // Check if the user already has a Stripe Customer ID
-        if (auth()->user()->stripe_id) {
-            $customerId = auth()->user()->stripe_id;
-        } else {
-            // Create a new Stripe Customer
-            $customer = $stripe->customers->create([
-                'email' => auth()->user()->email,
-            ]);
-
-            // Store the Stripe Customer ID in your database
-            $user = auth()->user();
-            $user->stripe_id = $customer->id;
-            $user->save();
-
-            $customerId = $customer->id;
-        }
+//        if (auth()->user()->stripe_id) {
+//            $customerId = auth()->user()->stripe_id;
+//        } else {
+//            // Create a new Stripe Customer
+//            $customer = $stripe->customers->create([
+//                'email' => auth()->user()->email,
+//            ]);
+//
+//            // Store the Stripe Customer ID in your database
+//            $user = auth()->user();
+//            $user->stripe_id = $customer->id;
+//            $user->save();
+//
+//            $customerId = $customer->id;
+//        }
 
 //        $lineItems = [
 //            [
@@ -134,7 +134,7 @@ class PurchaseController extends Controller
             'payment_method_types' => ['card'],
             'line_items' => $lineItems,
             'mode' => 'payment',
-            'customer' => $customerId, // Use the Stripe Customer ID here
+//            'customer' => $customerId, // Use the Stripe Customer ID here
             'success_url' => url('/subscriptions'),
             'cancel_url' => url('/start-your-journey'),
             'allow_promotion_codes' => true,

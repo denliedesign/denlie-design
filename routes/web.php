@@ -16,9 +16,18 @@ use App\Http\Controllers\PurchaseController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('_old-welcome', function () {
+    return view('_old-welcome');
+});
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('denlie-bundle', function () {
+    return view('denlie-bundle');
+});
+Route::get('custom-denlie', function () {
+    return view('custom-denlie');
 });
 Route::get('dance-web-design', function () {
     return view('dance-web-design');
