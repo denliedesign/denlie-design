@@ -64,7 +64,10 @@
                     </form>
                     <p class="color-warm pt-2" style="line-height: 1;">
                         <small style="font-size: 16px;">
-                            A $129/mo Hosting & Maintenance fee comes with every website and will be set up in the next step.
+                            A monthly Hosting & Maintenance fee of <strong>$129/mo</strong> is included with every "Pick & Choose" website and takes effect once the site goes live.
+                            <br><br>
+                            Apply your <span style="color: #B12729;">promotion code</span> at checkout to see the adjusted price in the next step.
+                            {{--                            A <strong>$129/mo Hosting & Maintenance</strong> fee comes with every website and will be set up in the next step.--}}
                         </small>
                     </p>
                 </div>
@@ -98,7 +101,10 @@
                 function addCartItem(itemName, itemPrice) {
                     const uniqueId = itemName.replace(/\s+/g, '-') + '-' + Date.now(); // Create a unique ID for this item
                     const displayName = itemName.replace(/_/g, ' '); // Replace underscores with spaces
-                    const formattedPrice = `$${itemPrice.toFixed(2)}`;
+                    const discountedPrice = itemPrice * 0.5;
+                    const roundedPrice = Math.ceil(discountedPrice);
+                    const formattedPrice = `$${roundedPrice.toFixed(2)}`;
+                    // const formattedPrice = `$${itemPrice.toFixed(2)}`;
 
                     // Create the list item
                     const listItem = document.createElement('li');
