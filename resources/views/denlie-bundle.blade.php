@@ -121,7 +121,7 @@
 
             <section class="py-5 my-5">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-                    <img src="/images/icons/BW_8.png" class="img-fluid" alt="">
+                    <div class="col"><img src="/images/icons/BW_8.png" class="img-fluid" alt=""></div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div>
                             <div style="font-size: 24px; font-weight: 400;">Denlie Bundle</div>
