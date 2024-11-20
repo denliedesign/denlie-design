@@ -22,10 +22,10 @@
                     Designed for dance studios that demand excellence and flexibility, our service offers unmatched customization and ongoing web management. Experience the ease of having a personal web expert dedicated to adapting your site as your studio evolves.
                 </p>
                 <div class="row">
-                    <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <img src="/images/seo-3.png" alt="dancer" style="width: 100%; height: auto;">
                     </div>
-                    <div class="col-8">
+                    <div class="col-md-8">
                         <div>
                             <span class="open-concept-title-pop" style="font-weight: bold;">Your Custom Crew</span>
                             <ul>
@@ -57,7 +57,7 @@
 
             <section class="py-5 my-5">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-                    <img src="/images/icons/BW_4.png" class="img-fluid" alt="">
+                    <div class="col"><img src="/images/icons/BW_4.png" class="img-fluid" alt=""></div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div>
                             <div style="font-size: 24px; font-weight: 400;">Custom Denlie</div>
