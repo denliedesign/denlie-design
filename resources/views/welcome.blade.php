@@ -55,116 +55,122 @@
                     <tr>
                         <td>Custom Design</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
-                        <td>Licensed Design</td>
-                        <td class="text-center">&check;</td>
+                        <td>Template Design</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                         <td class="text-center">-</td>
                     </tr>
                     <tr>
-                        <td>Custom Refresh</td>
+                        <td>Custom Refreshes</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Custom Branding</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Online Sales</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Email Marketing Suite</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Custom Solutions</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Family Flex Scheduler</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Ascension Level Placement</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>SiteMaster CMS</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                         <td class="text-center">-</td>
                     </tr>
                     <tr>
                         <td>Animation</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Dance Photo Gallery Access</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Exclusive Dance Illustrations</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Password Pages</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Additional Pages</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Additional Forms</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>EngagePlus</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Hosting And Maintenance</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Unlimited Monthly Edits</td>
                         <td class="text-center">-</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>SEO</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Email Marketing Optimization</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     <tr>
                         <td>Chat</td>
-                        <td class="text-center">&check;</td>
-                        <td class="text-center">&check;</td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
+                        <td class="text-center"><ion-icon name="checkmark-circle"></ion-icon></td>
                     </tr>
                     </tbody>
                 </table>
             </section>
+
+{{--            <h3 class="text-center fonts-robo mt-5">HELP! I just need something <span>simple</span> and <span>modern</span>!</h3>--}}
+{{--            <div>--}}
+{{--                <x-package icon="Color_2" item="licensed design" cost="2999" description="Our Licensed Design is perfect for studios who desire a proven design crafted with the parents of dancers in mind. We focus on delivering a seamless user experience, tailored to grow the size of your dance family effortlessly.--}}
+{{--                                            Misty's official design for MTJGD is mobile-friendly and includes 10 Pages plus access to dynamic dance photography and illustrations." />--}}
+{{--            </div>--}}
 
             <section class="mt-5 pt-5">
                 <div class="container">
