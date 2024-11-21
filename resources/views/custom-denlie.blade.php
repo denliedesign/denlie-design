@@ -46,8 +46,8 @@
                             <span class="open-concept-title-pop" style="font-weight: bold;">Your Personal Web Guy</span>
                             <ul>
                                 <li><strong>Dedicated Web Specialist:</strong> Benefit from having your personal web expert, dedicated to addressing all your web needs with speed and precision.</li>
-                                <li><strong>Proactive Maintenance and Security:</strong> Rely on us for continual website maintenance and rigorous security measures, ensuring your site stays secure and performs flawlessly.</li>
-                                <li><strong>Performance Optimization:</strong> We continuously monitor and fine-tune your site for optimal speed and search engine visibility, ensuring the best possible user experience.</li>
+                                <li><strong>Technical Optimization:</strong> Count on us for ongoing maintenance and top-tier security, keeping your site fast, safe, and SEO-friendly for the best user experience.</li>
+                                <li><strong>Proactive Enhancements:</strong> We’ll regularly review your site—updating outdated content and implementing improvements automatically without you needing to lift a finger.</li>
                             </ul>
                         </div>
                     </div>
