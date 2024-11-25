@@ -1,7 +1,7 @@
 <div class="bg-warm">
     <div class="d-none d-md-block d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 24px;">
         <ion-icon name="gift" style="color: #B12729;"></ion-icon>&nbsp;
-        <strong>Black Friday Sale:</strong>&nbsp;Lock in Your Spot Now to Get Your Website Live Before Christmas! Only&nbsp;<span style="color: #B12729;">2 Openings Left</span>&nbsp;– Act Quickly
+        <strong>Black Friday Sale:</strong>&nbsp;Lock in Your Spot Now to Get Your Website Live Before Christmas! Only&nbsp;<span style="color: #B12729;">1 Opening Left</span>&nbsp;– Act Quickly
     </div>
 {{--    <div class="d-block d-md-none d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 14px;">--}}
 {{--        <ion-icon name="gift" style="color: #B12729;"></ion-icon>&nbsp;--}}
