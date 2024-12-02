@@ -69,7 +69,7 @@
                             <div style="font-size: 14px; font-weight: 700; color: #B12729;" class="mt-2">Hurry, Only 4 Spots Available - Secure Yours Today!</div>
                             <hr>
                             <div style="font-size: 16px; font-weight: 700;">Details</div>
-                            <div style="font-size: 14px;">Lock in Your Savings! Sign up now and enjoy our special rate of just $2499/month, down from $2699/month. This exclusive offer runs from November 15th to November 30th. Building your site begins immediately upon the start of your subscription, and you can expect it to be complete within 2 months. We will reach out to you shortly after payment to kickstart the process. Secure this discounted rate for 12 months.</div>
+                            <div style="font-size: 14px;">Lock in Your Savings! Sign up now and enjoy our special rate of just $2499/month, down from $2699/month. This exclusive offer runs from November 15th to December 3rd. Building your site begins immediately upon the start of your subscription, and you can expect it to be complete within 2 months. We will reach out to you shortly after payment to kickstart the process. Secure this discounted rate for 12 months.</div>
                             <div class="fonts-robo" style="height: 150px; line-height: 1 !important;">
                                 {{--                                Get more students for just $499/mo with <strong>no setup fee!</strong><br>--}}
                                 <span style="font-size: 16px;"><a href="/subscriptions" class="mt-3 fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get Custom Denlie</a></span>
