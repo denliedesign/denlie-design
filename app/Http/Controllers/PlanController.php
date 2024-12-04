@@ -32,10 +32,10 @@ class PlanController extends Controller
         // Check for add-ons and add them to the line items
         $addons = $request->input('addons', []);
         if (in_array('denlie_bundle', $addons)) {
-            $lineItems[] = ['price' => 'price_1QKv5VHaney56bwrmoEcnKMM', 'quantity' => 1];
+            $lineItems[] = ['price' => 'price_1QSLV5Haney56bwrvoybPL7O', 'quantity' => 1];
         }
         if (in_array('custom_denlie', $addons)) {
-            $lineItems[] = ['price' => 'price_1QLdveHaney56bwrxly8KFES', 'quantity' => 1];
+            $lineItems[] = ['price' => 'price_1QSLW2Haney56bwrF3yPQEyW', 'quantity' => 1];
         }
         if (in_array('hosting_and_maintenance', $addons)) {
             $lineItems[] = ['price' => 'price_1P31niHaney56bwruz9pUg7f', 'quantity' => 1];
