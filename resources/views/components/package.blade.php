@@ -8,8 +8,9 @@
                 <p class="pb-0 text-capitalize"><a class="brand-link" href="/{{ strtolower(str_replace(' ', '-', $item)) }}">{{ $item }}</a></p>
                 <p style="font-size: 16px !important;" class="pb-0">{{ $description }}</p>
                 <div class="d-md-flex align-items-center">
-                    <p class="fw-bold pb-0 mb-0 text-muted" style="font-size: 12px;"><s>${{ $cost }}</s></p> <span class="d-none d-md-block">&nbsp; &nbsp;</span>
-                    <p class="fw-bold pb-0 mb-0" style="color: #B12729;">${{ ceil($cost * 0.5) }}</p> <span class="d-none d-md-block">&nbsp; &nbsp;</span>
+                    <p class="fw-bold pb-0 mb-0" style="">${{ $cost }}</p> <span class="d-none d-md-block">&nbsp; &nbsp;</span>
+{{--                    <p class="fw-bold pb-0 mb-0 text-muted" style="font-size: 12px;"><s>${{ $cost }}</s></p> <span class="d-none d-md-block">&nbsp; &nbsp;</span>--}}
+{{--                    <p class="fw-bold pb-0 mb-0" style="color: #B12729;">${{ ceil($cost * 0.5) }}</p> <span class="d-none d-md-block">&nbsp; &nbsp;</span>--}}
                     <button class="my-1 btn btn-coral color-warm shadow rounded add-to-cart" data-name="addons[]" data-cost="{{ $cost }}" data-value="{{ str_replace(' ', '_', $item) }}">Add to Cart</button>
                 </div>
             </div>

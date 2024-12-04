@@ -1,12 +1,12 @@
 <div class="bg-warm">
-    <div class="d-none d-md-block d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 24px;">
+{{--    <div class="d-none d-md-block d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 24px;">--}}
 {{--        <strong>Black Friday Sale:</strong>&nbsp;Deals End Tuesday, Dec 3 11:59 PM CT – Act Quickly--}}
-        <div id="countdown">
-            <p id="timer"></p>
-        </div>
+{{--        <div id="countdown">--}}
+{{--            <p id="timer"></p>--}}
+{{--        </div>--}}
 {{--        <strong>Black Friday Sale:</strong>&nbsp;Last Day to Grab Great Deals – Act Quickly--}}
 {{--        <strong>Black Friday Sale:</strong>&nbsp;Lock in Your Spot Now to Get Your Website Live Before Christmas! Only&nbsp;<span style="color: #B12729;">1 Opening Left</span>&nbsp;– Act Quickly--}}
-    </div>
+{{--    </div>--}}
 {{--    <div class="d-block d-md-none d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 14px;">--}}
 {{--        <ion-icon name="gift" style="color: #B12729;"></ion-icon>&nbsp;--}}
 {{--        <strong>Black Friday Sale</strong>--}}
@@ -31,15 +31,15 @@
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#testimonials">Testimonials</a></li>
 {{--                    &nbsp;<span style="color: grey;">|</span>&nbsp;--}}
                     <li class="nav-item text-center">
-                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">$50 off monthly</span>
+{{--                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">$50 off monthly</span>--}}
                         <a class="nav-link text-dark mx-3 py-0" href="/denlie-bundle"><em>Denlie Bundle</em></a>
                     </li>
                     <li class="nav-item text-center">
-                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">$200 off monthly</span>
+{{--                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">$200 off monthly</span>--}}
                         <a class="nav-link text-dark mx-3 py-0" href="/custom-denlie"><em>Custom Denlie</em></a>
                     </li>
                     <li class="nav-item text-center">
-                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">50% off everything</span>
+{{--                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">50% off everything</span>--}}
                         <a class="nav-link text-dark mx-3 py-0" href="/start-your-journey"><em>Pick & Choose</em></a>
                     </li>
 {{--                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="#">Maintenance</a></li>--}}

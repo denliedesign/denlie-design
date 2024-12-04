@@ -125,15 +125,20 @@
                     <div class="d-flex justify-content-center align-items-center">
                         <div>
                             <div style="font-size: 24px; font-weight: 400;">Denlie Bundle</div>
-                            <div><span style="background: #B12729; color: white; padding: 4px 8px; font-weight: 700; font-size: 12px;" class="rounded">$50 off monthly for new clients</span>
+{{--                            <div>--}}
+{{--                                <span style="background: #B12729; color: white; padding: 4px 8px; font-weight: 700; font-size: 12px;" class="rounded">$50 off monthly for new clients</span>--}}
 {{--                                &nbsp;<span style="color: #B12729; font-size: 12px; font-weight: 700;">Limited time deal</span>--}}
-                            </div>
-                            <div style="font-size: 28px;">$449/mo</div>
-                            <div class="text-muted" style="font-size: 12px;">Typical Price: <s>$499/mo</s></div>
-                            <div style="font-size: 14px; font-weight: 700; color: #B12729;" class="mt-2">Hurry, Only 13 Spots Available - Secure Yours Today!</div>
+{{--                            </div>--}}
+                            <div style="font-size: 28px;">$499/mo</div>
+{{--                            <div class="text-muted" style="font-size: 12px;">Typical Price: <s>$499/mo</s></div>--}}
+{{--                            <div style="font-size: 14px; font-weight: 700; color: #B12729;" class="mt-2">Hurry, Only 13 Spots Available - Secure Yours Today!</div>--}}
                             <hr>
                             <div style="font-size: 16px; font-weight: 700;">Details</div>
-                            <div style="font-size: 14px;">Lock in Your Savings! Sign up now and enjoy our special rate of just $449/month, down from $499/month. This exclusive offer runs from November 15th to December 3rd. Building your site begins immediately upon the start of your subscription, and you can expect it to be complete within 2 months. We will reach out to you shortly after payment to kickstart the process. Secure this discounted rate for 12 months. Discount available for new clients only; full price will be charged for existing clients.</div>
+                            <div style="font-size: 14px;">
+{{--                                Lock in Your Savings! Sign up now and enjoy our special rate of just $449/month, down from $499/month. This exclusive offer runs from November 15th to December 3rd. --}}
+                                Building your site begins immediately upon the start of your subscription, and you can expect it to be complete within 2 months. We will reach out to you shortly after payment to kickstart the process.
+{{--                                Secure this discounted rate for 12 months. Discount available for new clients only; full price will be charged for existing clients.--}}
+                            </div>
                             <div class="fonts-robo" style="height: 150px; line-height: 1 !important;">
 {{--                                Get more students for just $499/mo with <strong>no setup fee!</strong><br>--}}
                                 <span style="font-size: 16px;"><a href="/subscriptions" class="mt-3 fonts-robo btn btn-lg btn-coral color-warm rounded shadow">Get the Denlie Bundle</a></span>

@@ -4,9 +4,9 @@
         <div class="col-7 col-sm-7 col-md-9 col-lg-9">
             <div class="container py-5">
                 <section>
-                    <div class="d-flex justify-content-center mb-3">
-                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 4px 8px; font-weight: 700; font-size: 17px;">50% off everything: Use code NOV50</span>
-                    </div>
+{{--                    <div class="d-flex justify-content-center mb-3">--}}
+{{--                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 4px 8px; font-weight: 700; font-size: 17px;">50% off everything: Use code NOV50</span>--}}
+{{--                    </div>--}}
                     <div class="d-md-flex justify-content-center align-items-center">
 {{--                        <div class="numero fonts-robo d-flex align-items-center color-warm" style="width: max-content;"><span>step</span>&nbsp;<span style="font-size: 2em;">2</span></div>--}}
                         <h2 class="fonts-play ms-md-3" style="line-height: 1;">Pick & Choose</h2>
@@ -65,8 +65,8 @@
                     <p class="color-warm pt-2" style="line-height: 1;">
                         <small style="font-size: 16px;">
                             A monthly Hosting & Maintenance fee of <strong>$129/mo</strong> is included with every "Pick & Choose" website and takes effect once the site goes live.
-                            <br><br>
-                            Apply your <span style="color: #B12729;">promotion code</span> at checkout to see the adjusted price in the next step.
+{{--                            <br><br>--}}
+{{--                            Apply your <span style="color: #B12729;">promotion code</span> at checkout to see the adjusted price in the next step.--}}
                             {{--                            A <strong>$129/mo Hosting & Maintenance</strong> fee comes with every website and will be set up in the next step.--}}
                         </small>
                     </p>
@@ -101,7 +101,8 @@
                 function addCartItem(itemName, itemPrice) {
                     const uniqueId = itemName.replace(/\s+/g, '-') + '-' + Date.now(); // Create a unique ID for this item
                     const displayName = itemName.replace(/_/g, ' '); // Replace underscores with spaces
-                    const discountedPrice = itemPrice * 0.5;
+                    const discountedPrice = itemPrice;
+                    // const discountedPrice = itemPrice * 0.5;
                     const roundedPrice = Math.ceil(discountedPrice);
                     const formattedPrice = `$${roundedPrice.toFixed(2)}`;
                     // const formattedPrice = `$${itemPrice.toFixed(2)}`;

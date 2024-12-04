@@ -8,8 +8,8 @@
                         <h2 class="fonts-play ms-md-3" style="line-height: 1;"></h2>
                     </div>
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                        <x-pack icon="BW_8" item="denlie bundle" cost="449/mo" description="Dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
-                        <x-pack icon="BW_4" item="custom denlie" cost="2499/mo" description="Designed for dance studios that demand excellence and flexibility, our service offers unmatched customization and ongoing web management. Experience the ease of having a personal web expert dedicated to adapting your site as your studio evolves." />
+                        <x-pack icon="BW_8" item="denlie bundle" cost="499/mo" description="Dance studio web service designed to elevate your online presence, streamline your operations, and enhance the enrollment journey for your dance families." />
+                        <x-pack icon="BW_4" item="custom denlie" cost="2699/mo" description="Designed for dance studios that demand excellence and flexibility, our service offers unmatched customization and ongoing web management. Experience the ease of having a personal web expert dedicated to adapting your site as your studio evolves." />
                     </div>
                 </section>
                 <hr class="my-5">
