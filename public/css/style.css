@@ -124,3 +124,26 @@ p, a, div, button { font-size: 24px; }
 #comparison-chart tr:nth-child(even) {
     background-color: #F3E4D7; /* Light gray color */
 }
+
+.dd-wrap { max-width: 1140px; margin: 2rem auto; }
+.dd-card { border: 0; box-shadow: 0 10px 25px rgba(0,0,0,.08); height: 100%; }
+.dd-price { font-size: clamp(1.75rem, 2.5vw + 1rem, 3rem); font-weight: 800; }
+.dd-badge { font-size: .75rem; text-transform: uppercase; letter-spacing:.04em; }
+.dd-icon { display:inline-flex; width:1.25rem; height:1.25rem; align-items:center; justify-content:center; margin-right:.5rem; }
+.dd-accent { background: linear-gradient(135deg, #0b1324 0%, #14213d 100%); color: #fff; }
+.dd-accent * { color: #fff !important; }
+.dd-accent .list-group-item { background: transparent; }
+.list-group-item { border:0; padding:.5rem 0; }
+.dd-cta { margin-top: .5rem; }
+.dd-founder { border:0; box-shadow: 0 10px 25px rgba(0,0,0,.08); overflow: hidden; }
+.dd-founder-img { object-fit: cover; height: 100%; width: 100%; }
+.dd-founder .dd-divider { border-top: 1px dashed rgba(0,0,0,.15); margin: 1rem 0; }
+@media (min-width: 992px){
+    .dd-founder-img { height: 100%; min-height: 460px; }
+}
+.dd-hero { border:0; box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+.dd-hero.dd-accent * { color:#fff !important; }
+.dd-hero .dd-kicker { font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; opacity:.9; }
+.dd-hero .dd-bullets .list-group-item { background: transparent; }
+.dd-cta-bottom { border:0; box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+.dd-cta-bottom.dd-accent * { color:#fff !important; }
