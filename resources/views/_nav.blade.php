@@ -1,4 +1,6 @@
 <div class="bg-warm">
+
+
 {{--    <div class="d-none d-md-block d-flex justify-content-center align-items-center text-center pt-3" style="font-size: 24px;">--}}
 {{--        <strong>Black Friday Sale:</strong>&nbsp;Deals End Tuesday, Dec 3 11:59 PM CT – Act Quickly--}}
 {{--        <div id="countdown">--}}
@@ -12,6 +14,12 @@
 {{--        <strong>Black Friday Sale</strong>--}}
 {{--    </div>--}}
 {{--    <hr class="my-3">--}}
+
+    <div class="d-flex justify-content-center align-items-center py-3" style="background: red;">
+        <div style="font-size: 19px; color: white;">Cyber Monday Sale: Websites <span style="font-size: 30px; font-weight: bold;">35% OFF</span></div>
+    </div>
+
+
     <nav class="navbar navbar-expand-lg bg-warm">
         <div class="container-fluid">
             <a class="" href="/"><img src="/images/denlie-logo-super-cropped.png" alt="" class="img-fluid" style="width: 175px; height: auto;"></a>
