@@ -45,7 +45,8 @@
                                 <div class="card-body p-4 p-lg-5">
                                     <span class="badge bg-dark dd-badge mb-2">One‑time</span>
                                     <h3 class="h5 text-muted mb-1">Custom Website Build</h3>
-                                    <div class="dd-price mb-2" style="color: red;"><s class="text-muted">$2,999</s> $1949</div>
+                                    <div class="dd-price mb-2">$2,999</div>
+{{--                                    <div class="dd-price mb-2" style="color: red;"><s class="text-muted">$2,999</s> $1949</div>--}}
                                     <p class="text-muted">From‑scratch site with a tailored CMS for your studio.</p>
                                     <ul class="list-group list-group-flush mb-3">
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Built from scratch (no cookie‑cutter theme)</li>

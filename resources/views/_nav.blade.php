@@ -15,9 +15,9 @@
 {{--    </div>--}}
 {{--    <hr class="my-3">--}}
 
-    <div class="d-flex justify-content-center align-items-center py-3" style="background: red;">
-        <div style="font-size: 19px; color: white;">Cyber Monday Sale: Websites <span style="font-size: 30px; font-weight: bold;">35% OFF</span></div>
-    </div>
+{{--    <div class="d-flex justify-content-center align-items-center py-3" style="background: red;">--}}
+{{--        <div style="font-size: 19px; color: white;">Cyber Monday Sale: Websites <span style="font-size: 30px; font-weight: bold;">35% OFF</span></div>--}}
+{{--    </div>--}}
 
 
     <nav class="navbar navbar-expand-lg bg-warm">
