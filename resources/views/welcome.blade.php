@@ -316,6 +316,94 @@
 
             </section>
 
+            {{-- DIGITAL SYSTEMS — 4 PILLARS --}}
+            <section class="mt-5" id="digital-systems">
+                <div class="dd-wrap container my-4 my-lg-5">
+                    <div class="card dd-card">
+                        <div class="card-body p-4 p-lg-5">
+
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-dark dd-badge">The Denlie Framework</span>
+                                <span class="text-uppercase text-muted dd-badge">Enrollment • Retention • Recital • Custom</span>
+                            </div>
+
+                            <h2 class="display-6 mb-2" style="font-weight:800;">
+                                Built for the full life cycle of your studio.
+                            </h2>
+
+                            <p class="text-muted mb-4">
+                                Not just a beautiful website — but digital systems that support enrollment,
+                                student growth, and the rhythm of your season.
+                            </p>
+
+                            <div class="row g-4">
+
+                                {{-- ENROLLMENT --}}
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="p-4 border rounded-3 h-100">
+                                        <h3 class="h6 fw-bold mb-2">Enrollment</h3>
+                                        <p class="text-muted mb-2">
+                                            <strong>Family Flex Scheduler</strong>
+                                        </p>
+                                        <p class="text-muted mb-0">
+                                            Helps families quickly find classes that fit real schedules —
+                                            making “this won’t work” turn into “we can do this.”
+                                        </p>
+                                    </div>
+                                </div>
+
+                                {{-- RETENTION --}}
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="p-4 border rounded-3 h-100">
+                                        <h3 class="h6 fw-bold mb-2">Retention</h3>
+                                        <p class="text-muted mb-2">
+                                            <strong>Ascension Level Placement</strong>
+                                        </p>
+                                        <p class="text-muted mb-0">
+                                            Clear placement results, teacher comments, and summer recommendations —
+                                            reinforcing growth and keeping families engaged year after year.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                {{-- RECITAL SEASON --}}
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="p-4 border rounded-3 h-100">
+                                        <h3 class="h6 fw-bold mb-2">Recital Season</h3>
+                                        <p class="text-muted mb-2">
+                                            <strong>Recital Hub</strong>
+                                        </p>
+                                        <p class="text-muted mb-0">
+                                            A centralized home for tickets, schedules, and key downloads —
+                                            reducing confusion during the busiest time of the year.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                {{-- CUSTOM TOOLS --}}
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="p-4 border rounded-3 h-100">
+                                        <h3 class="h6 fw-bold mb-2">Custom</h3>
+                                        <p class="text-muted mb-2">
+                                            <strong>Studio-Specific Tools</strong>
+                                        </p>
+                                        <p class="text-muted mb-0">
+                                            Need something tailored? Custom forms, internal systems,
+                                            or workflow tools can be built around your studio’s unique structure.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="mt-4 text-center">
+                                <a href="#pricing" class="btn btn-dark">See Pricing</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section>
                 <div class="dd-wrap container my-4 my-lg-5" id="about">
