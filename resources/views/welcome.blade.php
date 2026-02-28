@@ -45,7 +45,7 @@
                                 <div class="card-body p-4 p-lg-5">
                                     <span class="badge bg-dark dd-badge mb-2">One‑time</span>
                                     <h3 class="h5 text-muted mb-1">Custom Website Build</h3>
-                                    <div class="dd-price mb-2">$2,999</div>
+                                    <div class="dd-price mb-2">$7,999</div>
 {{--                                    <div class="dd-price mb-2" style="color: red;"><s class="text-muted">$2,999</s> $1949</div>--}}
                                     <p class="text-muted">From‑scratch site with a tailored CMS for your studio.</p>
                                     <ul class="list-group list-group-flush mb-3">
@@ -66,7 +66,7 @@
                                 <div class="card-body p-4 p-lg-5">
                                     <span class="badge bg-light text-dark dd-badge mb-2">Monthly</span>
                                     <h3 class="h5 mb-1">Care & Maintenance</h3>
-                                    <div class="dd-price mb-2">$129<span class="fs-6 fw-normal">/mo</span></div>
+                                    <div class="dd-price mb-2">$99<span class="fs-6 fw-normal">/mo</span></div>
                                     <p>Managed hosting + up to <strong>1 hour</strong> of on‑demand edits each month.</p>
                                     <ul class="list-group list-group-flush mb-3">
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Hosting, backups, monitoring, security updates</li>
@@ -87,7 +87,7 @@
                                 <div class="card-body p-4 p-lg-5">
                                     <span class="badge bg-secondary dd-badge mb-2">Add‑On</span>
                                     <h3 class="h5 text-muted mb-1">SEO Growth</h3>
-                                    <div class="dd-price mb-2">$299<span class="fs-6 fw-normal">/mo</span></div>
+                                    <div class="dd-price mb-2">$499<span class="fs-6 fw-normal">/mo</span></div>
                                     <p class="text-muted">Ongoing content & rankings support built for local enrollment.</p>
                                     <ul class="list-group list-group-flush mb-3">
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Keyword plan & on‑page optimization</li>
