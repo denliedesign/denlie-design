@@ -35,9 +35,10 @@
 {{--                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#features">Features</a></li>--}}
 {{--                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#pricing">Pricing</a></li>--}}
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#family-flex">Family Flex Scheduler</a></li>
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#pricing">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#testimonials">Testimonials</a></li>
 {{--                    &nbsp;<span style="color: grey;">|</span>&nbsp;--}}
 {{--                    <li class="nav-item text-center">--}}
 {{--                        <span class="rounded fonts-robo" style="background: #B12729; color: white; padding: 2px 4px; font-weight: 700; font-size: 12px;">$50 off monthly</span>--}}

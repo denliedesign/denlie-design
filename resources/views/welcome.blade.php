@@ -15,7 +15,7 @@
                                     {{-- Updated hero copy --}}
                                     <h1 class="display-6 fw-bold mb-2">Custom Dance Studio Websites — Designed to Grow With You</h1>
                                     <p class="mb-3">
-                                        Built by a dancer, designed for dance families. Fully custom (never template-locked) with a clean CMS so you can update your content anytime — while I protect the structure so your site always stays polished.
+                                        Built by a dancer and designed for real enrollment seasons. A fully custom website that helps families find classes quickly, understand your programs clearly, and feel confident enrolling.
                                     </p>
 
                                     <div class="d-flex flex-wrap gap-3">
@@ -40,110 +40,36 @@
                 </div>
             </section>
 
-            <section class="mt-5" id="pricing">
-
-                <div class="">
-                    <div class="row g-4 align-items-stretch">
-
-                        <!-- Card 1: Website Build -->
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card dd-card h-100">
-                                <div class="card-body p-4 p-lg-5">
-                                    <span class="badge bg-dark dd-badge mb-2">One-time</span>
-                                    <h3 class="h5 text-muted mb-1">Custom Website Build</h3>
-
-                                    {{-- Updated price --}}
-                                    <div class="dd-price mb-2">$8,000</div>
-
-                                    {{-- Updated description --}}
-                                    <p class="text-muted">
-                                        A fully custom website designed for dance families — with a tailored CMS so you can update content easily while the design stays elegant and consistent.
-                                    </p>
-
-                                    <ul class="list-group list-group-flush mb-3">
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Fully custom design (no cookie-cutter theme)</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Easy content editing (headings, text, images, PDFs)</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Mobile-first, fast, and accessible</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Launch support (DNS/SSL) + SEO foundation</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Includes the <a href="#family-flex">Family Flex Scheduler</a></li>
-                                    </ul>
-
-                                    <a href="mailto:customdenlie@gmail.com?subject=Website%20Project%20Inquiry" class="btn btn-dark w-100 dd-cta">Email customdenlie@gmail.com</a>
-                                </div>
+            {{-- Outcome line above testimonials --}}
+            <section class="my-4" id="outcomes">
+                <div class="dd-wrap container">
+                    <div class="card dd-card">
+                        <div class="card-body p-4 p-lg-5 text-center">
+                            <div class="d-inline-flex align-items-center gap-2 mb-2">
+                                <span class="badge bg-dark dd-badge">Outcomes</span>
+                                <span class="text-uppercase text-muted dd-badge">What this is really for</span>
                             </div>
+
+                            <h2 class="h3 fw-bold mb-2">
+                                The goal isn’t a new website. It’s more families walking through your doors.
+                            </h2>
+
+                            <p class="text-muted mb-0">
+                                Designed to support enrollment, retention, and long-term studio growth.
+                            </p>
                         </div>
-
-                        <!-- Card 2: Monthly Maintenance (accent) -->
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card dd-card dd-accent h-100">
-                                <div class="card-body p-4 p-lg-5">
-                                    <span class="badge bg-light text-dark dd-badge mb-2">Monthly</span>
-                                    <h3 class="h5 mb-1">Care & Maintenance</h3>
-
-                                    <div class="dd-price mb-2">$99<span class="fs-6 fw-normal">/mo</span></div>
-
-                                    <p>
-                                        Secure hosting, system oversight, and <strong>1 full hour</strong> of dedicated development time each month.
-                                        Use it however you’d like.
-                                    </p>
-
-                                    <ul class="list-group list-group-flush mb-3">
-                                        <li class="list-group-item">
-                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
-                                            Hosting, backups, monitoring, and security updates
-                                        </li>
-                                        <li class="list-group-item">
-                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
-                                            Performance tuning & uptime oversight
-                                        </li>
-                                        <li class="list-group-item">
-                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
-                                            1 hour/month for anything — new pages, popups, forms, layout changes, redesign ideas, seasonal refreshes
-                                        </li>
-                                    </ul>
-
-                                    <div class="small">
-                                        If a project extends beyond the included hour, I’ll continue at <strong>$90/hr</strong> with a quick estimate before proceeding.
-                                    </div>
-                                    <div class="small mt-1">
-                                        Typical response time: <strong>1–5 business days</strong>; same-day for urgent issues when possible.
-                                    </div>
-
-                                    <a href="mailto:customdenlie@gmail.com?subject=Maintenance%20Plan%20Inquiry" class="btn btn-outline-light w-100 dd-cta">
-                                        Email customdenlie@gmail.com
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 3: SEO Add-on -->
-                        <div class="col-12 col-lg-4">
-                            <div class="card dd-card h-100">
-                                <div class="card-body p-4 p-lg-5">
-                                    <span class="badge bg-secondary dd-badge mb-2">Add-On</span>
-                                    <h3 class="h5 text-muted mb-1">Dance-Specific SEO</h3>
-
-                                    {{-- Updated SEO price to match your current --}}
-                                    <div class="dd-price mb-2">$499<span class="fs-6 fw-normal">/mo</span></div>
-
-                                    <p class="text-muted">
-                                        Ongoing SEO built specifically for dance studios — by a dancer who understands your programs, your seasonality, and how parents actually search.
-                                    </p>
-
-                                    <ul class="list-group list-group-flush mb-3">
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Keyword plan + on-page optimization</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Program pages & local targeting support</li>
-                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Monthly insights & practical next steps</li>
-                                    </ul>
-
-                                    <a href="mailto:customdenlie@gmail.com?subject=SEO%20Inquiry" class="btn btn-secondary w-100 dd-cta">Email customdenlie@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
+            </section>
 
+            <section class="my-5" id="testimonials">
+                <x-testimonial order="odd" background="yellow" state="WISCONSIN" scroll="mdu-new" logo="mdu" studio="Misty's Dance Unlimited" quote="Grateful! Denlie Designs has been highly responsive and skilled at customizing our sites to our ever-changing needs."  />
+                <x-testimonial order="even" background="peach" state="NEW YORK" scroll="bgdc" logo="bgdc" studio="Breaking Ground Dance Center" quote="Dennis is the easiest and nicest web designer to work with. He responds quickly, does amazing work and helped see our vision come to life!"  />
+                <x-testimonial order="odd" background="coral" state="NEW YORK" scroll="aim" logo="aim" studio="Attitudes In Motion" quote="We had the pleasure of working with Dennis to launch our new site.  He is a true professional who takes the time to understand your business needs and goals to ensure the end result is as expected.  His action is swift, always very fast to respond to questions and share ideas.  Highly recommend his service."  />
+                <x-testimonial order="even" background="yellow" state="ALABAMA" scroll="darbys" logo="darbys" studio="Darby's Dancers" quote="Dennis is a super guy to work with!  He is very responsive, dependable and trustworthy. Excellent service!"  />
+                <x-testimonial order="odd" background="peach" state="NEW YORK" scroll="pulse" logo="pulse" studio="The Pulse" quote="Dennis was highly recommended from other reputable dance education facilities.  We needed a major upgrade for our site, to coincide with marketing efforts, and in a relatively short amount of time.  Dennis's experience here, and knowledge of this particular space, proved to be incredibly valuable.  We are thrilled with his work, and feel we have a terrific lasting relationship.  Such things are critical, and not often easily attained."  />
+                <x-testimonial order="even" background="coral" state="FLORIDA" scroll="edt" logo="edt" studio="Encore Dance Theatre" quote="Dennis at Denlie Design has been amazing to work with! He created a beautiful website for my business and worked alongside me to create something that we could be proud of. Customers find it easy to navigate and Dennis is always there to help update the site as needed! I would highly recommend Denlie Design!"  />
+                <x-testimonial order="odd" background="yellow" state="TEXAS" scroll="seventeen" logo="seventeen" studio="Studio 17" quote="Dennis created an awesome design for my website and has been so easy to work with over the last year or so! He has great communication and gets things done efficiently."  />
             </section>
 
             {{-- FAMILY FLEX SCHEDULER --}}
@@ -168,14 +94,14 @@
                                         turns into “we can do this.”
                                     </p>
 
-{{--                                    <div class="d-flex flex-wrap gap-3">--}}
-{{--                                        <a href="mailto:customdenlie@gmail.com?subject=Family%20Flex%20Scheduler%20Question" class="btn btn-light" style="color:black !important;">--}}
-{{--                                            Ask about Family Flex--}}
-{{--                                        </a>--}}
-{{--                                        <a href="#pricing" class="btn btn-outline-light">--}}
-{{--                                            See Pricing--}}
-{{--                                        </a>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="d-flex flex-wrap gap-3">--}}
+                                    {{--                                        <a href="mailto:customdenlie@gmail.com?subject=Family%20Flex%20Scheduler%20Question" class="btn btn-light" style="color:black !important;">--}}
+                                    {{--                                            Ask about Family Flex--}}
+                                    {{--                                        </a>--}}
+                                    {{--                                        <a href="#pricing" class="btn btn-outline-light">--}}
+                                    {{--                                            See Pricing--}}
+                                    {{--                                        </a>--}}
+                                    {{--                                    </div>--}}
 
                                     <div class="small mt-3">
                                         <strong>Included</strong> with every Denlie custom website build.
@@ -275,14 +201,121 @@
                                 </table>
                             </div>
 
-{{--                            <div class="mt-4">--}}
-{{--                                <a href="#pricing" class="btn btn-dark">See Pricing</a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="mt-4">--}}
+                            {{--                                <a href="#pricing" class="btn btn-dark">See Pricing</a>--}}
+                            {{--                            </div>--}}
 
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section class="mt-5" id="pricing">
+
+                <div class="">
+                    <div class="row g-4 align-items-stretch">
+
+                        <!-- Card 1: Website Build -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card dd-card h-100">
+                                <div class="card-body p-4 p-lg-5">
+                                    <span class="badge bg-dark dd-badge mb-2">One-time</span>
+                                    <h3 class="h5 text-muted mb-1">Custom Website Build</h3>
+
+                                    {{-- Updated price --}}
+                                    <div class="dd-price mb-2">$8,000</div>
+
+                                    {{-- Updated description --}}
+                                    <p class="text-muted">
+                                        A fully custom website designed to increase clarity, build trust with dance families, and turn more visitors into enrolled students.
+                                    </p>
+
+                                    <ul class="list-group list-group-flush mb-3">
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Fully custom design (no cookie-cutter theme)</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Easy content editing (headings, text, images, PDFs)</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Mobile-first, fast, and accessible</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Launch support (DNS/SSL) + SEO foundation</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Includes the <a href="#family-flex">Family Flex Scheduler</a></li>
+                                    </ul>
+
+                                    <a href="mailto:customdenlie@gmail.com?subject=Website%20Project%20Inquiry" class="btn btn-dark w-100 dd-cta">Email customdenlie@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Monthly Maintenance (accent) -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card dd-card dd-accent h-100">
+                                <div class="card-body p-4 p-lg-5">
+                                    <span class="badge bg-light text-dark dd-badge mb-2">Monthly</span>
+                                    <h3 class="h5 mb-1">Care & Maintenance</h3>
+
+                                    <div class="dd-price mb-2">$99<span class="fs-6 fw-normal">/mo</span></div>
+
+                                    <p>
+                                        Secure hosting, system oversight, and <strong>1 full hour</strong> of dedicated development time each month.
+                                        Use it however you’d like.
+                                    </p>
+
+                                    <ul class="list-group list-group-flush mb-3">
+                                        <li class="list-group-item">
+                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
+                                            Hosting, backups, monitoring, and security updates
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
+                                            Performance tuning & uptime oversight
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>
+                                            1 hour/month for anything — new pages, popups, forms, layout changes, redesign ideas, seasonal refreshes
+                                        </li>
+                                    </ul>
+
+                                    <div class="small">
+                                        If a project extends beyond the included hour, I’ll continue at <strong>$90/hr</strong> with a quick estimate before proceeding.
+                                    </div>
+                                    <div class="small mt-1">
+                                        Typical response time: <strong>1–5 business days</strong>; same-day for urgent issues when possible.
+                                    </div>
+
+                                    <a href="mailto:customdenlie@gmail.com?subject=Maintenance%20Plan%20Inquiry" class="btn btn-outline-light w-100 dd-cta">
+                                        Email customdenlie@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: SEO Add-on -->
+                        <div class="col-12 col-lg-4">
+                            <div class="card dd-card h-100">
+                                <div class="card-body p-4 p-lg-5">
+                                    <span class="badge bg-secondary dd-badge mb-2">Add-On</span>
+                                    <h3 class="h5 text-muted mb-1">Dance-Specific SEO</h3>
+
+                                    {{-- Updated SEO price to match your current --}}
+                                    <div class="dd-price mb-2">$499<span class="fs-6 fw-normal">/mo</span></div>
+
+                                    <p class="text-muted">
+                                        Get found when parents search for dance classes in your city. Ongoing SEO built specifically for dance studios — by a dancer who understands your programs, your seasonality, and how parents actually search.
+                                    </p>
+
+                                    <ul class="list-group list-group-flush mb-3">
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Keyword plan + on-page optimization</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Program pages & local targeting support</li>
+                                        <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Monthly insights & practical next steps</li>
+                                    </ul>
+
+                                    <a href="mailto:customdenlie@gmail.com?subject=SEO%20Inquiry" class="btn btn-secondary w-100 dd-cta">Email customdenlie@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
 
             <section>
                 <div class="dd-wrap container my-4 my-lg-5" id="about">
@@ -317,16 +350,6 @@
                 </div>
             </section>
 
-            <section class="my-5" id="testimonials">
-                <x-testimonial order="odd" background="yellow" state="WISCONSIN" scroll="mdu-new" logo="mdu" studio="Misty's Dance Unlimited" quote="Grateful! Denlie Designs has been highly responsive and skilled at customizing our sites to our ever-changing needs."  />
-                <x-testimonial order="even" background="peach" state="NEW YORK" scroll="bgdc" logo="bgdc" studio="Breaking Ground Dance Center" quote="Dennis is the easiest and nicest web designer to work with. He responds quickly, does amazing work and helped see our vision come to life!"  />
-                <x-testimonial order="odd" background="coral" state="NEW YORK" scroll="aim" logo="aim" studio="Attitudes In Motion" quote="We had the pleasure of working with Dennis to launch our new site.  He is a true professional who takes the time to understand your business needs and goals to ensure the end result is as expected.  His action is swift, always very fast to respond to questions and share ideas.  Highly recommend his service."  />
-                <x-testimonial order="even" background="yellow" state="ALABAMA" scroll="darbys" logo="darbys" studio="Darby's Dancers" quote="Dennis is a super guy to work with!  He is very responsive, dependable and trustworthy. Excellent service!"  />
-                <x-testimonial order="odd" background="peach" state="NEW YORK" scroll="pulse" logo="pulse" studio="The Pulse" quote="Dennis was highly recommended from other reputable dance education facilities.  We needed a major upgrade for our site, to coincide with marketing efforts, and in a relatively short amount of time.  Dennis's experience here, and knowledge of this particular space, proved to be incredibly valuable.  We are thrilled with his work, and feel we have a terrific lasting relationship.  Such things are critical, and not often easily attained."  />
-                <x-testimonial order="even" background="coral" state="FLORIDA" scroll="edt" logo="edt" studio="Encore Dance Theatre" quote="Dennis at Denlie Design has been amazing to work with! He created a beautiful website for my business and worked alongside me to create something that we could be proud of. Customers find it easy to navigate and Dennis is always there to help update the site as needed! I would highly recommend Denlie Design!"  />
-                <x-testimonial order="odd" background="yellow" state="TEXAS" scroll="seventeen" logo="seventeen" studio="Studio 17" quote="Dennis created an awesome design for my website and has been so easy to work with over the last year or so! He has great communication and gets things done efficiently."  />
-            </section>
-
             <section>
                 <div class="dd-wrap container my-4 my-lg-5" id="contact">
                     <div class="card dd-card dd-cta-bottom dd-accent">
@@ -336,7 +359,7 @@
                                 <span class="dd-badge">Let’s build something great</span>
                             </div>
 
-                            <h2 class="display-6 fw-bold mb-2">Build a website that grows with your studio</h2>
+                            <h2 class="display-6 fw-bold mb-2">Build a website that grows with your studio and supports your enrollment goals year after year.</h2>
 
                             <p class="mb-4">
                                 A custom digital home for your studio — built for dance families, easy to keep updated, and designed to evolve through every season.
