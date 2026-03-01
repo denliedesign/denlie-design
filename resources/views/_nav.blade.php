@@ -35,8 +35,8 @@
 {{--                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#features">Features</a></li>--}}
 {{--                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#pricing">Pricing</a></li>--}}
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#digital-systems">The Denlie Framework</a></li>
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#family-flex">Family Flex Scheduler</a></li>
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#pricing">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link text-dark mx-3" href="/#about">About</a></li>
 {{--                    &nbsp;<span style="color: grey;">|</span>&nbsp;--}}
