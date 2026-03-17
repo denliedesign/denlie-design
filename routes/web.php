@@ -29,6 +29,9 @@ Route::get('denlie-bundle', function () {
 Route::get('custom-denlie', function () {
     return view('custom-denlie');
 });
+Route::get('dance-studio-software', function () {
+    return view('dance-studio-software');
+});
 //Route::get('dance-web-design', function () {
 //    return view('dance-web-design');
 //});
