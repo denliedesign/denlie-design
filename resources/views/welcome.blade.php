@@ -287,20 +287,53 @@
                         <div class="col-12 col-lg-4">
                             <div class="card dd-card h-100">
                                 <div class="card-body p-4 p-lg-5">
+
                                     <span class="badge bg-secondary dd-badge mb-2">Add-On</span>
+
                                     <h3 class="h5 text-muted mb-1">Dance-Specific SEO</h3>
-                                    <div class="dd-price mb-2">$499<span class="fs-6 fw-normal">/mo</span></div>
+
+                                    <!-- PRICE -->
+                                    <div class="dd-price mb-1">
+                                        <span class="price-monthly">$499</span>
+                                        <span class="price-yearly d-none">$424</span>
+                                        <span class="fs-6 fw-normal">/mo</span>
+                                    </div>
+
+                                    <!-- SUBTEXT -->
+                                    <div class="small text-muted mb-3">
+                                        <small>
+                                            <span class="billing-monthly">Billed monthly</span>
+                                            <span class="billing-yearly d-none">Billed annually (Save 15% — ~2 months free)</span>
+                                        </small>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <button id="togglePricing" class="btn btn-outline-dark">
+                                            Switch to Yearly (Save 15%)
+                                        </button>
+                                    </div>
+
+                                    <!-- TRUST LINE -->
+{{--                                    <div class="small text-muted mb-3">--}}
+{{--                                        <small>12-month growth plan designed for long-term ranking and enrollment</small>--}}
+{{--                                    </div>--}}
+
                                     <p class="text-muted">
                                         Get found when parents search for dance classes in your city.
                                         Ongoing SEO built specifically for dance studios — by a dancer who understands your programs,
                                         your seasonality, and how parents actually search.
                                     </p>
+
                                     <ul class="list-group list-group-flush mb-3">
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Keyword plan + on-page optimization</li>
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Program pages & local targeting support</li>
                                         <li class="list-group-item"><span class="dd-icon"><ion-icon name="checkmark-outline"></ion-icon></span>Monthly insights & practical next steps</li>
                                     </ul>
-                                    <a href="mailto:customdenlie@gmail.com?subject=SEO%20Inquiry" class="btn btn-secondary w-100 dd-cta">Email customdenlie@gmail.com</a>
+
+                                    <a href="mailto:customdenlie@gmail.com?subject=SEO%20Inquiry" class="btn btn-secondary w-100 dd-cta">
+                                        Email customdenlie@gmail.com
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -379,4 +412,23 @@
 
         </div>
     </div>
+
+
+    <script>
+        let yearly = false;
+
+        document.getElementById('togglePricing').addEventListener('click', function () {
+            yearly = !yearly;
+
+            document.querySelectorAll('.price-monthly').forEach(el => el.classList.toggle('d-none', yearly));
+            document.querySelectorAll('.price-yearly').forEach(el => el.classList.toggle('d-none', !yearly));
+
+            document.querySelectorAll('.billing-monthly').forEach(el => el.classList.toggle('d-none', yearly));
+            document.querySelectorAll('.billing-yearly').forEach(el => el.classList.toggle('d-none', !yearly));
+
+            this.innerText = yearly
+                ? 'Switch to Monthly'
+                : 'Switch to Yearly (Save 15%)';
+        });
+    </script>
 @endsection
