@@ -33,6 +33,12 @@
                 </div>
             </section>
 
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <img src="/images/dance-studio-management-software.jpg" alt="computer screen with code" class="img-fluid rounded shadow" style="object-fit: cover; object-position: center; width: 100%; height: 300px;">
+                </div>
+            </div>
+
             {{-- INTRO --}}
             <section id="content">
                 <div class="dd-wrap container my-4 my-lg-5">
@@ -66,6 +72,12 @@
                     </div>
                 </div>
             </section>
+
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <img src="/images/dance-class-software.jpg" alt="kids in a circle in ballet shoes" class="img-fluid rounded shadow" style="object-fit: cover; object-position: center; width: 100%; height: 300px;">
+                </div>
+            </div>
 
             {{-- SECTION 2 --}}
             <section>
@@ -124,6 +136,12 @@
                     </div>
                 </div>
             </section>
+
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <img src="/images/dance-studio-software.jpg" alt="person on their laptop" class="img-fluid rounded shadow" style="object-fit: cover; object-position: center; width: 100%; height: 300px;">
+                </div>
+            </div>
 
             {{-- ENROLLMENT --}}
             <section>
@@ -256,6 +274,12 @@
                     </div>
                 </div>
             </section>
+
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <img src="/images/best-dance-studio-software.jpg" alt="modern dancer in a unique pose" class="img-fluid rounded shadow">
+                </div>
+            </div>
 
             {{-- FRAMEWORK SUMMARY --}}
             <section>
