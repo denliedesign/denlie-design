@@ -32,12 +32,12 @@ Route::get('custom-denlie', function () {
 Route::get('dance-studio-software', function () {
     return view('dance-studio-software');
 });
-//Route::get('dance-web-design', function () {
-//    return view('dance-web-design');
-//});
-//Route::get('dance-studio-website-design', function () {
-//    return view('dance-studio-website-design');
-//});
+Route::get('dance-web-design', function () {
+    return view('dance-web-design');
+});
+Route::get('dance-studio-website-design', function () {
+    return view('dance-studio-website-design');
+});
 
 Route::get('licensed-design', function () {return view('licensed-design');});
 Route::get('custom-design', function () {return view('custom-design');});
