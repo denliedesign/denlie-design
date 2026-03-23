@@ -69,7 +69,7 @@
                             </div>
 
                             <h2 class="h3 fw-bold mb-2">
-                                The goal isn’t a new website. It’s more families walking through your doors.
+                                The goal isn’t a new dance studio website or new <a style="font-size: inherit; color: inherit; text-decoration: none;" href="/dance-studio-software">dance studio software</a>. It’s more families walking through your doors.
                             </h2>
 
                             <p class="text-muted mb-0">
