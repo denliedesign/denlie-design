@@ -1,0 +1,41 @@
+body {background: #FAFAFA !important;}
+
+h1, h2, h3, h4, h5 {font-family: "Playfair Display", serif; font-weight: 900 !important;}
+p, a {font-family: 'Lato', sans-serif; font-weight: 400 !important;}
+.font-xs {font-size: 15.5px;}
+.font-sm {font-size: 17.5px;}
+.font-md {font-size: 22.25px;}
+.font-lg {font-size: 44.5px;}
+.font-xl {font-size: 63px;}
+.font-xxl {font-size: 112px;}
+
+/* colors */
+.soft-white {color: #FAFAFA;} /* 80% */
+.soft-white-bg {background: #FAFAFA;} /* 80% */
+.deep-charcoal {color: #1A1A1A;} /* 80% */
+.deep-charcoal-bg {background: #1A1A1A;} /* 80% */
+.blush-pink {color: #E8C7C8;} /* 10% subtle bg, section accents, hover, highlights */
+.blush-pink-bg {background: #E8C7C8;} /* 10% subtle bg, section accents, hover, highlights */
+.soft-gold {color: #C9A96E;} /* 5% buttons, dividers/lines, icons, premium highlights */
+.soft-gold-bg {background: #C9A96E;} /* 5% buttons, dividers/lines, icons, premium highlights */
+.deep-navy {color: #1F2A44;} /* 5% headings, contrast sections, trust elements */
+.deep-navy-bg {background: #1F2A44;} /* 5% headings, contrast sections, trust elements */
+
+.line {
+    width: 100px;
+    height: 4px;
+    background: #E8C7C8;
+}
+
+/* testimonial colors */
+.color-coral { color: #FF6B6B; }
+.bg-coral, .btn-coral { background: #FF6B6B !important; }
+.btn-outline-coral { background: #FFF1E6 !important; border: 1px solid #FF6B6B !important; color: #FF6B6B !important; }
+.color-yellow { color: #FFD93D; }
+.bg-yellow { background: #FFD93D; }
+.color-peach { color: #FFA372; }
+.bg-peach, .btn-peach { background: #FFA372 !important; }
+.color-warm { color: #FFF1E6 !important; }
+.bg-warm { background: #FFF1E6 !important; }
+.color-teal { color: #2B2D42; }
+.bg-teal, .btn-teal { background: #2B2D42 !important; }

@@ -16,10 +16,9 @@ use App\Http\Controllers\PurchaseController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('_old-welcome', function () {
-    return view('_old-welcome');
-});
-
+//Route::get('mt', function () {
+//    return view('mt');
+//});
 Route::get('/', function () {
     return view('welcome');
 });

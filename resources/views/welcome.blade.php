@@ -292,26 +292,55 @@
 
                                     <h3 class="h5 text-muted mb-1">Dance-Specific SEO</h3>
 
-                                    <!-- PRICE -->
                                     <div class="dd-price mb-1">
                                         <span class="price-monthly">$499</span>
                                         <span class="price-yearly d-none">$424</span>
+                                        <span class="price-seasonal d-none">$416</span>
                                         <span class="fs-6 fw-normal">/mo</span>
                                     </div>
 
-                                    <!-- SUBTEXT -->
                                     <div class="small text-muted mb-3">
                                         <small>
                                             <span class="billing-monthly">Billed monthly</span>
                                             <span class="billing-yearly d-none">Billed annually (Save 15% — ~2 months free)</span>
+                                            <span class="billing-seasonal d-none">6-month Enrollment Season Push (Apr–Sept) — 1 month free</span>
                                         </small>
                                     </div>
 
-                                    <div class="mb-4">
-                                        <button id="togglePricing" class="btn btn-outline-dark">
-                                            Switch to Yearly (Save 15%)
+                                    <div class="mb-4 d-flex gap-2 flex-wrap">
+                                        <button class="btn btn-outline-dark pricing-toggle active" data-mode="monthly">
+                                            Monthly
+                                        </button>
+
+                                        <button class="btn btn-outline-dark pricing-toggle" data-mode="yearly">
+                                            Yearly (Save 15%)
+                                        </button>
+
+                                        <button class="btn btn-warning pricing-toggle" data-mode="seasonal">
+                                            🔥 Enrollment Push
                                         </button>
                                     </div>
+
+{{--                                    <!-- PRICE -->--}}
+{{--                                    <div class="dd-price mb-1">--}}
+{{--                                        <span class="price-monthly">$499</span>--}}
+{{--                                        <span class="price-yearly d-none">$424</span>--}}
+{{--                                        <span class="fs-6 fw-normal">/mo</span>--}}
+{{--                                    </div>--}}
+
+{{--                                    <!-- SUBTEXT -->--}}
+{{--                                    <div class="small text-muted mb-3">--}}
+{{--                                        <small>--}}
+{{--                                            <span class="billing-monthly">Billed monthly</span>--}}
+{{--                                            <span class="billing-yearly d-none">Billed annually (Save 15% — ~2 months free)</span>--}}
+{{--                                        </small>--}}
+{{--                                    </div>--}}
+
+{{--                                    <div class="mb-4">--}}
+{{--                                        <button id="togglePricing" class="btn btn-outline-dark">--}}
+{{--                                            Switch to Yearly (Save 15%)--}}
+{{--                                        </button>--}}
+{{--                                    </div>--}}
 
                                     <!-- TRUST LINE -->
 {{--                                    <div class="small text-muted mb-3">--}}
@@ -415,20 +444,47 @@
 
 
     <script>
-        let yearly = false;
+        const buttons = document.querySelectorAll('.pricing-toggle');
 
-        document.getElementById('togglePricing').addEventListener('click', function () {
-            yearly = !yearly;
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                const mode = this.dataset.mode;
 
-            document.querySelectorAll('.price-monthly').forEach(el => el.classList.toggle('d-none', yearly));
-            document.querySelectorAll('.price-yearly').forEach(el => el.classList.toggle('d-none', !yearly));
+                // Reset active states
+                buttons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
 
-            document.querySelectorAll('.billing-monthly').forEach(el => el.classList.toggle('d-none', yearly));
-            document.querySelectorAll('.billing-yearly').forEach(el => el.classList.toggle('d-none', !yearly));
+                // Hide all prices
+                document.querySelectorAll('.price-monthly, .price-yearly, .price-seasonal')
+                    .forEach(el => el.classList.add('d-none'));
 
-            this.innerText = yearly
-                ? 'Switch to Monthly'
-                : 'Switch to Yearly (Save 15%)';
+                document.querySelectorAll('.billing-monthly, .billing-yearly, .billing-seasonal')
+                    .forEach(el => el.classList.add('d-none'));
+
+                // Show selected
+                document.querySelectorAll(`.price-${mode}`)
+                    .forEach(el => el.classList.remove('d-none'));
+
+                document.querySelectorAll(`.billing-${mode}`)
+                    .forEach(el => el.classList.remove('d-none'));
+            });
         });
     </script>
+{{--    <script>--}}
+{{--        let yearly = false;--}}
+
+{{--        document.getElementById('togglePricing').addEventListener('click', function () {--}}
+{{--            yearly = !yearly;--}}
+
+{{--            document.querySelectorAll('.price-monthly').forEach(el => el.classList.toggle('d-none', yearly));--}}
+{{--            document.querySelectorAll('.price-yearly').forEach(el => el.classList.toggle('d-none', !yearly));--}}
+
+{{--            document.querySelectorAll('.billing-monthly').forEach(el => el.classList.toggle('d-none', yearly));--}}
+{{--            document.querySelectorAll('.billing-yearly').forEach(el => el.classList.toggle('d-none', !yearly));--}}
+
+{{--            this.innerText = yearly--}}
+{{--                ? 'Switch to Monthly'--}}
+{{--                : 'Switch to Yearly (Save 15%)';--}}
+{{--        });--}}
+{{--    </script>--}}
 @endsection
