@@ -1,7 +1,8 @@
+html {scroll-behavior: smooth;}
 body {background: #FAFAFA !important;}
 
 h1, h2, h3, h4, h5 {font-family: "Playfair Display", serif; font-weight: 900 !important;}
-p, a {font-family: 'Lato', sans-serif; font-weight: 400 !important;}
+p, a, span, ul, li {font-family: 'Lato', sans-serif; font-weight: 400 !important;}
 .font-xs {font-size: 15.5px;}
 .font-sm {font-size: 17.5px;}
 .font-md {font-size: 22.25px;}
@@ -39,3 +40,205 @@ p, a {font-family: 'Lato', sans-serif; font-weight: 400 !important;}
 .bg-warm { background: #FFF1E6 !important; }
 .color-teal { color: #2B2D42; }
 .bg-teal, .btn-teal { background: #2B2D42 !important; }
+
+.mt-nav {
+    gap: 16px;
+    padding: 0 16px;
+}
+
+.mt-nav a {
+    white-space: nowrap;
+}
+
+.mt-hero img {
+    width: 100%;
+}
+
+.mt-hero-copy,
+.mt-goal-copy {
+    width: min(720px, 78%);
+}
+
+.pillar-image img {
+    width: 100%;
+}
+
+.dd-card {
+    border-radius: 8px !important;
+}
+
+@media (max-width: 991.98px) {
+    .font-md {font-size: 19px;}
+    .font-lg {font-size: 34px;}
+    .font-xl {font-size: 46px;}
+    .font-xxl {font-size: 72px;}
+
+    .mt-nav {
+        justify-content: center !important;
+        flex-wrap: wrap;
+        margin-top: 18px !important;
+    }
+
+    .mt-nav-logo {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .mt-nav-logo img {
+        height: 54px !important;
+    }
+
+    .mt-nav-cta {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    .mt-goal {
+        display: block !important;
+    }
+
+    .mt-goal-panel {
+        width: 100% !important;
+        height: 320px !important;
+    }
+
+    .mt-goal-copy {
+        left: 50% !important;
+        width: 82%;
+        text-align: center;
+    }
+
+    .blush-pink-bg .font-xl[style*="text-align"] {
+        text-align: left !important;
+    }
+
+    .card-body {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .font-xs {font-size: 14px;}
+    .font-sm {font-size: 16px;}
+    .font-md {font-size: 17px;}
+    .font-lg {font-size: 27px;}
+    .font-xl {font-size: 34px;}
+    .font-xxl {font-size: 46px;}
+
+    .mt-nav {
+        gap: 10px 14px;
+        font-size: 13px;
+    }
+
+    .mt-nav-cta {
+        width: min(100%, 320px);
+        text-align: center;
+    }
+
+    .mt-hero {
+        padding-top: 1.5rem !important;
+    }
+
+    .mt-hero img {
+        min-height: 360px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .mt-hero-copy {
+        left: 50% !important;
+        width: 84%;
+        text-align: center;
+    }
+
+    .mt-hero-copy h1 {
+        margin-bottom: 0.25rem;
+    }
+
+    .mt-hero-copy p {
+        line-height: 1.08;
+    }
+
+    .mt-goal-panel {
+        height: 260px !important;
+    }
+
+    .pillar-row {
+        text-align: left;
+    }
+
+    .pillar-image img {
+        max-height: 320px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .pillar-copy h2 {
+        margin-bottom: 0.75rem;
+    }
+
+    .pillar-copy .line {
+        display: none;
+    }
+
+    .pillar-copy p[style*="translateX"] {
+        transform: none !important;
+        line-height: 1.18;
+        margin-bottom: 0.65rem !important;
+    }
+
+    #testimonials {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #testimonials > .row {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    #testimonials h2 {
+        line-height: 1.05;
+    }
+
+    #testimonials p {
+        line-height: 1.35;
+    }
+
+    #pricing .btn,
+    #studio-interest .btn {
+        width: 100%;
+        white-space: normal;
+    }
+
+    #about img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .font-lg {font-size: 24px;}
+    .font-xl {font-size: 31px;}
+
+    .mt-hero img {
+        min-height: 330px;
+    }
+
+    .card-body {
+        padding: 1.5rem !important;
+    }
+}

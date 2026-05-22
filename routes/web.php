@@ -3,6 +3,7 @@
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PurchaseController;
 
@@ -16,11 +17,52 @@ use App\Http\Controllers\PurchaseController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-//Route::get('mt', function () {
-//    return view('mt');
-//});
 Route::get('/', function () {
-    return view('welcome');
+    return view('mt');
+});
+
+Route::get('mt', function () {
+    return view('mt');
+});
+
+Route::post('mt/interest', function () {
+    $data = request()->validate([
+        'name' => ['required', 'string', 'max:120'],
+        'email' => ['required', 'email', 'max:160'],
+        'phone' => ['nullable', 'string', 'max:40'],
+        'studio' => ['nullable', 'string', 'max:160'],
+        'location' => ['nullable', 'string', 'max:160'],
+        'timeline' => ['nullable', 'string', 'max:120'],
+        'message' => ['nullable', 'string', 'max:2000'],
+    ]);
+
+    $body = collect([
+        'Name' => $data['name'],
+        'Email' => $data['email'],
+        'Phone' => $data['phone'] ?? 'Not provided',
+        'Studio' => $data['studio'] ?? 'Not provided',
+        'Location' => $data['location'] ?? 'Not provided',
+        'Timeline' => $data['timeline'] ?? 'Not provided',
+        'Message' => $data['message'] ?? 'Not provided',
+    ])->map(fn ($value, $label) => "{$label}: {$value}")->implode("\n\n");
+
+    Mail::raw($body, function ($message) use ($data) {
+        $message->to('customdenlie@gmail.com')
+            ->replyTo($data['email'], $data['name'])
+            ->subject('New Denlie studio website interest form');
+    });
+
+    if (request()->expectsJson()) {
+        return response()->json([
+            'message' => 'Thanks! Your message was sent. I will be in touch soon.',
+        ]);
+    }
+
+    return back()->with('studio_interest_success', 'Thanks! Your message was sent. I will be in touch soon.');
+})->name('mt.interest');
+
+Route::get('academy', function () {
+    return view('academy');
 });
 Route::get('denlie-bundle', function () {
     return view('denlie-bundle');

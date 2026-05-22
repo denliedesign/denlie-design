@@ -161,6 +161,72 @@
                 </div>
             </section>
 
+            {{-- FUTURE INNOVATIONS --}}
+            <section class="mt-5" id="future">
+                <div class="card dd-card overflow-hidden">
+                    <div class="card-body p-4 p-lg-5">
+
+                        <span class="badge bg-dark dd-badge mb-3">In Development</span>
+
+                        <div class="row g-4 align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h2 class="display-6 mb-3">The Future of Dance Studio Websites</h2>
+
+                                <p class="lead text-muted">
+                                    Denlie sites are built to grow with your studio — not just for today’s enrollment season,
+                                    but for the creative possibilities coming next.
+                                </p>
+
+                                <p class="text-muted">
+                                    One upcoming development is <strong>Motion Portraits</strong>: elegant, looping dancer visuals
+                                    designed to bring your website to life with the beauty, movement, and artistry of your studio.
+                                </p>
+
+                                <ul class="list-group list-group-flush mb-4">
+                                    <li class="list-group-item">
+                                        <span class="dd-icon"><ion-icon name="sparkles-outline"></ion-icon></span>
+                                        Subtle movement-based visuals for studio websites
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="dd-icon"><ion-icon name="film-outline"></ion-icon></span>
+                                        Designed to feel more like living artwork than ordinary video
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="dd-icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                                        Early access planned for select Denlie clients
+                                    </li>
+                                </ul>
+
+                                <div class="small text-muted">
+                                    This is part of Denlie’s larger mission: creating dance websites that feel beautiful,
+                                    useful, and deeply connected to the art form itself.
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm bg-light">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?auto=format&fit=crop&w=1200&q=80"
+                                        alt="Dancer in motion"
+                                        class="w-100 h-100 object-fit-cover"
+                                    >
+                                </div>
+
+                                <div class="mt-3 p-3 rounded-4 bg-light">
+                                    <div class="small text-muted mb-1">Coming Next</div>
+                                    <h3 class="h5 mb-2">Motion Portraits</h3>
+                                    <p class="small text-muted mb-0">
+                                        A future visual feature for studios that want their website to feel alive,
+                                        artistic, and unforgettable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             {{-- WHY DENLIE (KEEP IT SHORT + SCANNABLE) --}}
             <section class="mt-5" id="why-denlie">
                 <div class="dd-wrap container my-4 my-lg-5">
@@ -239,7 +305,7 @@
                                 <div class="card-body p-4 p-lg-5">
                                     <span class="badge bg-dark dd-badge mb-2">One-time</span>
                                     <h3 class="h5 text-muted mb-1">Custom Website Build</h3>
-                                    <div class="dd-price mb-2">$8,000</div>
+                                    <div class="dd-price mb-2">$7,000</div>
                                     <p class="text-muted">
                                         A fully custom website designed to increase clarity, build trust with dance families,
                                         and turn more visitors into enrolled students.
@@ -293,17 +359,17 @@
                                     <h3 class="h5 text-muted mb-1">Dance-Specific SEO</h3>
 
                                     <div class="dd-price mb-1">
-                                        <span class="price-monthly">$499</span>
-                                        <span class="price-yearly d-none">$424</span>
-                                        <span class="price-seasonal d-none">$416</span>
+                                        <span class="price-monthly">$399</span>
+                                        <span class="price-yearly d-none">$332.50</span>
+                                        <span class="price-seasonal d-none">$332.50</span>
                                         <span class="fs-6 fw-normal">/mo</span>
                                     </div>
 
                                     <div class="small text-muted mb-3">
                                         <small>
                                             <span class="billing-monthly">Billed monthly</span>
-                                            <span class="billing-yearly d-none">Billed annually (Save 15% — ~2 months free)</span>
-                                            <span class="billing-seasonal d-none">6-month Enrollment Season Push (Apr–Sept) — 1 month free</span>
+                                            <span class="billing-yearly d-none">Billed annually - 2 months free</span>
+                                            <span class="billing-seasonal d-none">6-month Enrollment Season Push (June–November) — 1 month free</span>
                                         </small>
                                     </div>
 
@@ -313,7 +379,7 @@
                                         </button>
 
                                         <button class="btn btn-outline-dark pricing-toggle" data-mode="yearly">
-                                            Yearly (Save 15%)
+                                            Yearly (Save 17%)
                                         </button>
 
                                         <button class="btn btn-warning pricing-toggle" data-mode="seasonal">
