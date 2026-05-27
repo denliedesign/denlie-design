@@ -217,8 +217,9 @@
                         <div class="card-body p-4 p-lg-5">
                             <span class="badge bg-dark dd-badge mb-2 text-uppercase fw-bold">One-time</span>
                             <h3 class="h5 text-muted mb-1 font-md">Custom Website Build</h3>
-                            <div class="dd-price mb-0 pb-0 font-lg fw-bold text-danger">$6,000</div>
-                            <div><s class="font-xs text-muted mt-0 pt-0 fw-bold">$7,000</s> Memorial Day Sale Ends 5/26/26</div>
+                            <div class="dd-price mb-0 pb-0 font-lg fw-bold">$6,000</div>
+{{--                            <div class="dd-price mb-0 pb-0 font-lg fw-bold text-danger">$6,000</div>--}}
+{{--                            <div><s class="font-xs text-muted mt-0 pt-0 fw-bold">$7,000</s> Memorial Day Sale Ends 5/26/26</div>--}}
                             <p class="text-muted font-md mt-2">
                                 A fully custom website designed to increase clarity, build trust with dance families,
                                 and turn more visitors into enrolled students.
