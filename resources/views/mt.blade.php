@@ -5,7 +5,7 @@
         <div><img src="/images/fluid-frames-landscape-indoors-2.jpg" class="img-fluid gsap-move" alt=""></div>
         <div class="mt-hero-copy" style="position: absolute; top: 46%; left: 44%; transform: translate(-50%, -50%);">
             <h1 class="font-xl soft-white">Denlie</h1>
-            <p class="font-lg soft-white">a dance website for every season</p>
+            <p class="font-lg soft-white">dance websites and studio systems for every season.</p>
         </div>
     </div>
 
@@ -363,8 +363,9 @@
                             <p class="font-md">
                                 Dennis Williams blends two worlds: web craftsmanship and dance training. By age nine he was building websites
                                 with HTML/CSS/JS and studying design with online mentors. At fifteen he began dance training that led to a BFA
-                                and a decade of teaching. In 2019 he launched Denlie Design to craft fast, elegant websites for studios nationwide —
+                                and a decade of teaching. In 2019 he launched Denlie Design to craft fast, elegant websites for dance studios that are
                                 built for real families, real seasons, and ever-changing studio life.
+                                Over the years this evolved from website design into building custom web applications, business systems, customer portals, and operational software for studios nationwide.
                             </p>
                         </div>
                     </div>
