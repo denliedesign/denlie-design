@@ -16,6 +16,7 @@ const form = reactive({
     location: '',
     timeline: '',
     message: '',
+    website_url: '',
 });
 
 const errors = ref({});
@@ -23,6 +24,7 @@ const success = ref('');
 const isSubmitting = ref(false);
 
 async function submitForm() {
+    if (isSubmitting.value) return;
     errors.value = {};
     success.value = '';
     isSubmitting.value = true;
@@ -43,6 +45,14 @@ async function submitForm() {
     } catch (error) {
         if (error.response?.status === 422) {
             errors.value = error.response.data.errors;
+        } else if (error.response?.status === 429) {
+            errors.value = {
+                form: ['Too many attempts. Please wait a little while before trying again. Your message is still here.'],
+            };
+        } else if (error.response?.status === 419) {
+            errors.value = {
+                form: ['Your session expired. Copy your message, refresh this page, and try again.'],
+            };
         } else {
             errors.value = {
                 form: ['Something went wrong while sending the form. Please try again in a moment.'],
@@ -64,6 +74,10 @@ async function submitForm() {
     </div>
 
     <form class="row g-3" @submit.prevent="submitForm">
+        <div class="interest-honeypot" aria-hidden="true" inert>
+            <label for="website_url">Leave this field empty</label>
+            <input id="website_url" name="website_url" v-model="form.website_url" type="text" tabindex="-1" autocomplete="off">
+        </div>
         <div class="col-12 col-md-6">
             <label for="name" class="form-label font-sm deep-charcoal">Name *</label>
             <input
@@ -162,3 +176,14 @@ async function submitForm() {
         </div>
     </form>
 </template>
+
+<style scoped>
+.interest-honeypot {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(100%);
+    pointer-events: none;
+}
+</style>

@@ -1,0 +1,31 @@
+/* Keep the existing palette, type scale, photography, and section spacing. */
+main { overflow: clip; }
+.denlie-hero { position: relative; }
+.denlie-hero-image { position: relative; overflow: hidden; }
+.denlie-hero-image img { display: block; }
+.denlie-hero-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(26,26,26,.48), rgba(26,26,26,.08)); pointer-events: none; }
+.denlie-hero .mt-hero-copy { position: absolute; top: 46%; left: 44%; transform: translate(-50%, -50%); }
+.denlie-button { display: inline-block; padding: 12px 24px; margin-top: 12px; text-decoration: none; }
+.denlie-button:hover, .mt-nav-cta:hover { background: #dfc69a; color: #1a1a1a; }
+.denlie-feature-copy { padding-left: 3rem; }
+.denlie-feature-copy p { max-width: 760px; }
+.denlie-match { margin-bottom: 0; }
+.denlie-match > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 20px; padding: 12px 0; }
+.denlie-match dt { font-weight: 700; }
+.denlie-match dd { margin-bottom: 0; }
+.denlie-inclusions { padding-left: 1.25rem; }
+.denlie-inclusions li { margin-bottom: 12px; }
+.denlie-founder-image { width: 100%; max-height: 440px; object-fit: cover; object-position: top; }
+.denlie-screen img { display: block; width: 100%; height: auto; border: 1px solid #dedbd7; border-radius: 8px; box-shadow: 0 12px 32px rgba(31,42,68,.1); }
+.denlie-screen > a { display: block; border-radius: 8px; }
+.denlie-screen figcaption { color: #454545; line-height: 1.5; }
+.denlie-screen figcaption a { display: inline-block; margin-left: .35rem; }
+#about-denlie a:focus-visible { outline-color: #C9A96E; }
+a:focus-visible { outline: 3px solid #1F2A44; outline-offset: 5px; }
+@media (max-width: 767.98px) {
+    .denlie-feature-copy { padding-left: 12px; }
+    .denlie-hero img { min-height: 400px; }
+    .mt-goal-panel { min-height: 340px; }
+    .denlie-hero .mt-hero-copy p { line-height: 1.2; }
+    footer { overflow-wrap: anywhere; }
+}

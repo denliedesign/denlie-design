@@ -18,21 +18,35 @@ use App\Http\Controllers\PurchaseController;
 |
 */
 Route::get('/', function () {
-    return view('mt');
+    return view('coming-soon');
 });
+
+Route::get('/preview/denlie-7f3b9c', function () {
+    return response()->view('denlie')
+        ->header('X-Robots-Tag', 'noindex, nofollow, noarchive');
+})->name('denlie.preview');
+
+Route::view('/custom-websites', 'custom-websites')->name('custom-websites');
 
 Route::get('mt', function () {
     return view('mt');
 });
 
 Route::post('mt/interest', function () {
+    // Bots commonly populate every field, including this invisible trap.
+    if (request()->filled('website_url')) {
+        return response()->json([
+            'message' => 'Thanks! Your message was sent. I will be in touch soon.',
+        ]);
+    }
+
     $data = request()->validate([
-        'name' => ['required', 'string', 'max:120'],
-        'email' => ['required', 'email', 'max:160'],
+        'name' => ['required', 'string', 'max:120', 'not_regex:/[\r\n\x00]/'],
+        'email' => ['required', 'string', 'email:rfc', 'max:160', 'not_regex:/[\r\n\x00]/'],
         'phone' => ['nullable', 'string', 'max:40'],
         'studio' => ['nullable', 'string', 'max:160'],
         'location' => ['nullable', 'string', 'max:160'],
-        'timeline' => ['nullable', 'string', 'max:120'],
+        'timeline' => ['nullable', 'string', 'in:As soon as possible,1-3 months,3-6 months,Just exploring'],
         'message' => ['nullable', 'string', 'max:2000'],
     ]);
 
@@ -59,7 +73,7 @@ Route::post('mt/interest', function () {
     }
 
     return back()->with('studio_interest_success', 'Thanks! Your message was sent. I will be in touch soon.');
-})->name('mt.interest');
+})->middleware('throttle:studio-interest')->name('mt.interest');
 
 Route::get('academy', function () {
     return view('academy');
