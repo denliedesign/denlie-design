@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    @if(request()->routeIs('denlie.preview'))
-        <meta name="robots" content="noindex, nofollow, noarchive">
-    @endif
     <meta name="description" content="@yield('description', 'A personalized website for your dance studio. Help new and returning families find the right classes with Denlie.')">
     <meta property="og:title" content="@yield('title', 'Denlie | Personalized Dance Studio Websites')">
     <meta property="og:description" content="@yield('description', 'A personalized website for your dance studio. Help new and returning families find the right classes with Denlie.')">
@@ -34,6 +31,7 @@
     </script>
 
 <link href="{{ asset('/css/denlie.css') }}" rel="stylesheet">
+@stack('styles')
 </head>
 <body>
 

@@ -1,5 +1,8 @@
 @extends('layouts.denlie')
+@section('title', 'Denlie Platform Preview | Personalized Dance Studio Websites')
+@section('description', 'Preview Denlie Platform: a studio website that connects seasonal schedules, student placements, and class planning for new and returning families.')
 @section('content')
+    <div class="container denlie-preview-notice"><span class="denlie-preview-badge">In development</span><p>You’re exploring a preview of Denlie Platform. Features and availability are still evolving. <a href="#studio-interest">Express your interest →</a></p></div>
     <div class="container py-5 mt-hero denlie-hero">
         <div class="denlie-hero-image gsap-move"><img src="/images/fluid-frames-landscape-indoors-2.jpg" class="img-fluid" alt="Dancers moving together in the studio"></div>
         <div class="mt-hero-copy">
@@ -42,7 +45,7 @@
                 <p class="font-md mb-0">A few choices turn a long schedule into useful options.</p>
             </div>
             <div class="col-12 col-lg-8">
-                <x-denlie-screen file="25-class-finder-desktop.webp" alt="Class finder showing season and age filters alongside My Class Plan" caption="The family’s starting point, shown in the Class Match project." />
+                <x-denlie-screen file="25-class-finder-desktop.webp" alt="Class finder showing season and age filters alongside My Class Plan" caption="The family’s starting point, shown in the Denlie Platform preview." />
             </div>
         </div>
     </section>
@@ -142,6 +145,7 @@
                     <p class="font-md">I’m Dennis Williams. Web developer. Dance educator. Founder of Denlie.</p>
                     <p class="font-md">Years of building studio websites led to a bigger question: how can a website help each family decide what to take?</p>
                     <p class="font-md">Denlie connects the pieces: studio data, class matching, and a website designed around the people using it.</p>
+                    <p class="font-md"><a href="{{ route('portfolio.denlie') }}" class="soft-white">Follow the projects that became Denlie Platform →</a></p>
                     <a href="{{ route('custom-websites') }}#testimonials" class="soft-white font-sm">See the custom website work behind Denlie →</a>
                 </div>
             </div>

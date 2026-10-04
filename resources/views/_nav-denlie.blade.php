@@ -1,17 +1,16 @@
-<nav class="mt-nav d-flex justify-content-around align-items-center font-xs mt-4" aria-label="Main navigation">
-    <a href="/" class="mt-nav-logo" aria-label="Denlie home"><img src="/images/denlie-logo-super-cropped.png" alt="Denlie" class="img-fluid" style="width: auto; height: 64px;"></a>
-    @if(request()->routeIs('custom-websites'))
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="/">Explore Denlie</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#testimonials">Our work</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#pricing">Pricing</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#about">About</a></div>
-    @elseif(request()->routeIs('denlie.preview'))
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#explore">Explore Denlie</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#how-it-works">How it works</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="#pricing">Pricing</a></div>
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="{{ route('custom-websites') }}">Custom websites</a></div>
-    @else
-        <div class="text-uppercase mt-nav-link"><a class="deep-charcoal" href="{{ route('custom-websites') }}">Custom websites</a></div>
-    @endif
-    <a class="text-uppercase soft-gold-bg px-4 py-2 shadow-sm mt-nav-cta deep-charcoal text-decoration-none" href="#studio-interest">{{ request()->routeIs('custom-websites') ? 'Plan your website' : 'Contact Dennis' }}</a>
+<nav class="denlie-global-nav container" aria-label="Main navigation">
+    <a href="{{ route('home') }}" class="denlie-global-logo" aria-label="Denlie home" @if(request()->routeIs('home')) aria-current="page" @endif><img src="/images/denlie-logo-super-cropped.png" alt="Denlie" width="170" height="64"></a>
+    <div class="denlie-global-links">
+        <a href="{{ route('denlie.platform') }}" @if(request()->routeIs('denlie.platform')) aria-current="page" @endif>Denlie Platform <span class="denlie-preview-badge">Preview</span></a>
+        <a href="{{ route('custom-websites') }}" @if(request()->routeIs('custom-websites')) aria-current="page" @endif>Custom Websites</a>
+        <a href="{{ route('portfolio.denlie') }}" @if(request()->routeIs('portfolio.denlie')) aria-current="page" @endif>Our Work</a>
+        <a href="{{ route('home') }}#studio-interest" class="denlie-contact-link">Contact</a>
+    </div>
 </nav>
+@if(request()->routeIs('denlie.platform'))
+    <nav class="denlie-section-nav" aria-label="On this platform page"><span>Explore the platform</span><a href="#explore">Overview</a><a href="#how-it-works">How it works</a><a href="#about-denlie">About</a><a href="#pricing">Get involved</a></nav>
+@elseif(request()->routeIs('custom-websites'))
+    <nav class="denlie-section-nav" aria-label="On this custom websites page"><span>Custom websites</span><a href="#what-you-get">What you get</a><a href="#testimonials">Website work</a><a href="#pricing">Pricing</a><a href="#about">About Dennis</a></nav>
+@elseif(request()->routeIs('portfolio.denlie'))
+    <nav class="denlie-section-nav" aria-label="On this project story"><span>The Denlie story</span><a href="#origins">The origins</a><a href="#mdu-levels">MDU Levels</a><a href="#denlie-platform">Denlie Platform</a></nav>
+@endif

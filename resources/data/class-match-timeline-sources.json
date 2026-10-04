@@ -1,0 +1,28 @@
+{
+  "researched_on": "2026-10-04",
+  "purpose": "Editorial evidence for the Class Match portfolio. This file is not served by the public page.",
+  "milestones": [
+    {"date": "2020-05-26", "event": "Original MDU placement database implemented", "source": "mistys_dance_unlimited commit 730bc04: placement database", "evidence": "Student controller, email-based viewing policy, registration, and placement table introduced. Implementation date, not a separately verified public launch date."},
+    {"date": "2022-05-14", "event": "Original family login workflow documented", "source": "Gmail message 180c13c9e291c723, Level Placement Project- ASAP", "evidence": "Register using the main MDU studio account email, create a password, view dancer placement."},
+    {"date": "2023-12-28", "event": "Earliest located Family Flex precursor request", "source": "Gmail thread 18cb16086e9989f9, Set up a phone call", "evidence": "Request to rework schedule pages; a prototype was available for a demo by January 9, 2024."},
+    {"date": "2024-01-17", "event": "Select-all feedback after a meeting", "source": "Gmail thread 18d18d74dfd9fdae, another idea"},
+    {"date": "2024-02-02", "event": "Family Flex version 2.0 ready for review", "source": "Gmail message 18d6b93f6d9e0a2f", "evidence": "Developer announced version 2.0 with screenshots. February 5 follow-up confirmed multiple children and described spreadsheet import."},
+    {"date": "2024-03-13", "event": "Family Flex online before planned March 14 rollout", "source": "Gmail message 18e3b1c106c510b9; thread 18d18d74dfd9fdae", "evidence": "Message sent March 13 at 10:57 PM America/Chicago. March 14 server work continued; March 18 feedback confirms families and staff had used the scheduler. Do not assert an exact completion hour."},
+    {"date": "2024-03-19", "event": "First located post-launch feedback completed", "source": "Gmail thread 18e528afe0a631c8, Scheduler", "evidence": "March 18 page naming, full schedule link, and incorrect program image requests; March 19 developer completion response."},
+    {"date": "2024-05-01", "event": "Ascension redesign request", "source": "Gmail thread 18f3345bd08b6ce6, Level Placement System", "evidence": "More organized family display, placements, specialty classes, summer/fall recommendations, teacher comments. Developer proposed automatic age-based recommendations."},
+    {"date": "2024-06-06", "event": "Ascension offered as a named product", "source": "Gmail thread 18feec6379189833, June Discount - Ascension Level Placement Software", "evidence": "Explains private certificates, recommendations and teacher comments. Registration remains in a separate system."},
+    {"date": "2025-03-14", "event": "Family Flex age brackets and import layout updated", "source": "Gmail thread 18e528afe0a631c8, Scheduler", "evidence": "Age brackets 10–12 and 13–18; importer adjusted for a shifted spreadsheet layout."},
+    {"date": "2025-06-09", "event": "Standalone MDU Levels site established", "source": "ascension repository initial commit and setup commits, June 9, 2025; Gmail domain purchase message 19757362548efaaa dated June 9 local time", "evidence": "Site setup date is distinct from the later schedule integration."},
+    {"date": "2025-06-10/2025-06-11", "event": "Family Flex import support", "source": "Gmail thread 1974087a956916a3, Recital Page: Youtube Video", "evidence": "Column index adjustment and removal of extra workbook sheets to resolve import failures."},
+    {"date": "2026-02-23", "event": "Family Flex schedule replacement fix", "source": "Gmail thread 19c72d362491c757, Scheduler Question", "evidence": "Uploads changed to replace prior schedule data so removed classes no longer linger. Musical Theater option removed following studio request."},
+    {"date": "2026-05-29", "event": "MDU Levels schedule integration", "source": "ascension git history: level placement upgrade and scheduler integration", "evidence": "Current preview confirms exact class options, family highlights, filtering and favorites."},
+    {"date": "2026-08-04/2026-08-05", "event": "Class Match working walkthroughs", "source": "Gmail thread 19fcb63e7895d0d2, Progress Report", "evidence": "Working walkthroughs; schedule-driven site content and recommendations; new/returning family experiences. Correspondence describes ongoing development, not a finished multi-studio public launch."}
+  ],
+  "screenshots": {
+    "ascension": "Existing archived sample certificate, John Doe, 2024–25 season.",
+    "mdu_levels": "Live browser capture October 4, 2026, user-supplied preview family session.",
+    "family_flex": "Live public scheduler capture October 4, 2026; not presented as a launch-era screenshot.",
+    "class_match": "Existing resources in public/images/denlie, development previews captured September 2026."
+  },
+  "claim_limits": "No enrollment uplift, conversion statistics, or completed multi-studio launch claims inferred. Studio Director email matching is not described as an API integration."
+}

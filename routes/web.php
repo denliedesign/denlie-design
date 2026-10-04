@@ -19,14 +19,14 @@ use App\Http\Controllers\PurchaseController;
 */
 Route::get('/', function () {
     return view('coming-soon');
-});
+})->name('home');
 
-Route::get('/preview/denlie-7f3b9c', function () {
-    return response()->view('denlie')
-        ->header('X-Robots-Tag', 'noindex, nofollow, noarchive');
-})->name('denlie.preview');
+Route::view('/platform', 'denlie')->name('denlie.platform');
+Route::redirect('/preview/denlie-7f3b9c', '/platform', 301)->name('denlie.preview');
 
 Route::view('/custom-websites', 'custom-websites')->name('custom-websites');
+Route::view('/portfolio/denlie', 'class-match-journey')->name('portfolio.denlie');
+Route::redirect('/portfolio/class-match', '/portfolio/denlie', 301)->name('portfolio.class-match');
 
 Route::get('mt', function () {
     return view('mt');
