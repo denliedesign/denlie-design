@@ -2,8 +2,8 @@
 @section('title', 'Denlie | Websites and tools built around dance families')
 @section('description', 'Preview the Denlie Platform, explore custom dance studio websites, and discover the real studio projects behind Denlie.')
 @section('content')
-    <div class="container py-5 mt-hero denlie-hero">
-        <div class="denlie-hero-image gsap-move"><img src="/images/fluid-frames-landscape-indoors-2.jpg" class="img-fluid" alt="Dancers moving together in the studio"></div>
+    <div class="container py-5 mt-hero denlie-hero denlie-home-hero">
+        <div class="denlie-hero-image gsap-move"><img src="/images/fluid-frames-landscape-outdoors.jpg" class="img-fluid" alt="Dancer balancing against a city skyline"></div>
         <div class="mt-hero-copy">
             <h1 class="font-xl soft-white">A new chapter<br>for Denlie.</h1>
             <p class="font-lg soft-white">Built for studios.<br>Designed around families.</p>
@@ -34,7 +34,7 @@
     <section class="container py-5 section-reveal">
         <div class="row g-4 align-items-center">
             <div class="col-12 col-lg-5"><p class="denlie-kicker">Our work · 2020–2026</p><h2 class="font-xl">See how it all started.</h2></div>
-            <div class="col-12 col-lg-7 denlie-feature-copy"><p class="font-md">A private placement page. A family scheduler. Years of real studio feedback. Follow the projects that grew into Denlie Platform.</p><a href="{{ route('portfolio.denlie') }}" class="denlie-text-link font-sm">Explore the project timeline →</a></div>
+            <div class="col-12 col-lg-7 denlie-feature-copy"><x-project-media device="laptop" image="/images/denlie/25-class-finder-desktop.webp" alt="Denlie Platform class finder and family class plan" caption="Where those ideas led: the Denlie Platform preview." /><p class="font-md">A private placement page. A family scheduler. Years of real studio feedback. Follow the projects that grew into Denlie Platform.</p><a href="{{ route('portfolio.denlie') }}" class="denlie-text-link font-sm">Explore the project timeline →</a></div>
         </div>
     </section>
 

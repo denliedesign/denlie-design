@@ -32,6 +32,7 @@
 
 <link href="{{ asset('/css/denlie.css') }}" rel="stylesheet">
 @stack('styles')
+<link href="{{ asset('/css/project-media.css') }}" rel="stylesheet">
 </head>
 <body>
 

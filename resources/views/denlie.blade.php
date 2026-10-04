@@ -3,13 +3,14 @@
 @section('description', 'Preview Denlie Platform: a studio website that connects seasonal schedules, student placements, and class planning for new and returning families.')
 @section('content')
     <div class="container denlie-preview-notice"><span class="denlie-preview-badge">In development</span><p>You’re exploring a preview of Denlie Platform. Features and availability are still evolving. <a href="#studio-interest">Express your interest →</a></p></div>
-    <div class="container py-5 mt-hero denlie-hero">
-        <div class="denlie-hero-image gsap-move"><img src="/images/fluid-frames-landscape-indoors-2.jpg" class="img-fluid" alt="Dancers moving together in the studio"></div>
-        <div class="mt-hero-copy">
-            <h1 class="font-xl soft-white">Denlie</h1>
-            <p class="font-lg soft-white">Your studio website.<br>Personal to every family.</p>
+    <div class="container denlie-product-hero">
+        <div>
+            <p class="denlie-kicker">The Denlie Platform</p>
+            <h1>Denlie</h1>
+            <p class="font-lg">Your studio website.<br>Personal to every family.</p>
             <a href="#explore" class="denlie-button soft-gold-bg deep-charcoal font-sm">Explore Denlie</a>
         </div>
+        <x-project-media device="laptop" image="/images/denlie/23-homepage-desktop.webp" alt="A studio-branded Denlie Platform website" caption="Your studio’s identity. A connected family experience. Development preview." />
     </div>
 
     <section class="container py-5 d-flex justify-content-end section-reveal mt-goal" style="position: relative;" id="explore">

@@ -24,5 +24,13 @@
     "family_flex": "Live public scheduler capture October 4, 2026; not presented as a launch-era screenshot.",
     "class_match": "Existing resources in public/images/denlie, development previews captured September 2026."
   },
+  "media_refresh": {
+    "captured_on": "2026-10-04",
+    "method": "Fresh browser viewport captures. Silent MP4 previews use only captured frames, repeated without blending or motion interpolation, with brief opening/closing holds. Scrolling advances in small steps to preserve readable text.",
+    "mdu_placement": "Phone viewport, Avery Preview only; walkthrough ends before the wide class table. 9.5 seconds.",
+    "mdu_filtering": "Live scheduler interaction captures: 70 classes, search Ballet (14), Level 3 (3), select the Tuesday favorite, clear filters (70 with favorite retained). Captured with the preview family; demo selection removed afterward. Edited into a silent, labeled walkthrough using held original frames, without interpolation.",
+    "family_flex": "Desktop viewport from the scheduler banner through ages, styles, days and Find Your Classes. 12.3 seconds, encoded at the original capture resolution.",
+    "presentation": "CSS device frames preserve the captured interface. Original archived screenshots retained; refreshed media replaces the long captures on the public timeline."
+  },
   "claim_limits": "No enrollment uplift, conversion statistics, or completed multi-studio launch claims inferred. Studio Director email matching is not described as an API integration."
 }
