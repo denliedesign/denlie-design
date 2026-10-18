@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Inquiry form spam protection
+
+The shared inquiry form on `/`, `/mt`, `/platform`, and `/custom-websites` uses a honeypot, CSRF, an encrypted session-bound guard, a two-second minimum completion time, a two-hour expiry, and atomic replay prevention. Existing IP limits remain three attempts per minute and ten per hour. Validation errors preserve entered information and allow correction with the same guard.
+
+To activate CAPTCHA, create a Cloudflare Turnstile Managed widget for `denliedesign.com` and `www.denliedesign.com`. Configure `TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`, and `TURNSTILE_HOSTNAMES` in the server environment, then set `TURNSTILE_ENABLED=true`. Never commit the secret key. Rebuild frontend assets with `npm run build` during deployment and refresh Laravel's configuration cache with `php artisan config:cache`. CAPTCHA remains off until explicitly enabled; when enabled, missing configuration or failed verification blocks delivery. Server verification requires success, an allowed hostname, and the `studio_interest` action.
+
+Use persistent shared cache and session storage if deploying across multiple application servers. Avoid caching inquiry page HTML across visitors because guards are session-bound. Run `php artisan test --filter=StudioInterestProtectionTest` to verify the safeguards without sending real mail or calling Cloudflare.

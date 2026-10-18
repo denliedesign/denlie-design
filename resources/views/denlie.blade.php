@@ -200,7 +200,7 @@
                 <p class="font-sm">Interested in the founding studio group? Mention it below.</p>
             </div>
             <div class="col-12 col-lg-7">
-                <div id="mt-interest-form" data-action="{{ route('mt.interest') }}"></div>
+                <div id="mt-interest-form" data-guard="{{ \App\Support\FormSecurity::issue() }}" data-turnstile-enabled="{{ config('form_security.turnstile_enabled') ? '1' : '0' }}" data-site-key="{{ config('form_security.site_key') }}" data-action="{{ route('mt.interest') }}"></div>
                 <noscript><p class="font-md">Email <a href="mailto:customdenlie@gmail.com">customdenlie@gmail.com</a> to learn more about Denlie.</p></noscript>
             </div>
         </div>

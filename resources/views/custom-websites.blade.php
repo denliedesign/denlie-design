@@ -287,7 +287,7 @@
                 <p class="font-lg">Tell me where your studio is now, what is changing next, and what you want your website to handle better.</p>
             </div>
             <div class="col-12 col-lg-7">
-                <div id="mt-interest-form" data-action="{{ route('mt.interest') }}"></div>
+                <div id="mt-interest-form" data-guard="{{ \App\Support\FormSecurity::issue() }}" data-turnstile-enabled="{{ config('form_security.turnstile_enabled') ? '1' : '0' }}" data-site-key="{{ config('form_security.site_key') }}" data-action="{{ route('mt.interest') }}"></div>
             </div>
         </div>
     </div>

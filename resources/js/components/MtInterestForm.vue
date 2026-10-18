@@ -1,7 +1,10 @@
 <script setup>
-import { reactive, ref } from 'vue';
+import { onMounted, onBeforeUnmount, reactive, ref } from 'vue';
 
 const props = defineProps({
+    guard: String,
+    turnstileEnabled: Boolean,
+    siteKey: String,
     action: {
         type: String,
         required: true,
@@ -22,6 +25,52 @@ const form = reactive({
 const errors = ref({});
 const success = ref('');
 const isSubmitting = ref(false);
+const guard = ref(props.guard);
+const captcha = ref('');
+const captchaContainer = ref(null);
+let widget;
+let poll;
+let loadTimeout;
+
+onMounted(() => {
+    if (!props.turnstileEnabled) return;
+    if (!props.siteKey) {
+        errors.value = { form: ['Verification is temporarily unavailable. Please try again shortly.'] };
+        return;
+    }
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    script.async = true;
+    script.onerror = () => { errors.value = { form: ['Verification could not load. Please refresh and try again.'] }; };
+    document.head.appendChild(script);
+    loadTimeout = window.setTimeout(() => {
+        window.clearInterval(poll);
+        if (widget === undefined) {
+            errors.value = { form: ['Verification could not load. Please refresh and try again.'] };
+        }
+    }, 15000);
+    poll = window.setInterval(() => {
+        if (!window.turnstile) return;
+        window.clearInterval(poll);
+        window.clearTimeout(loadTimeout);
+        widget = window.turnstile.render(captchaContainer.value, {
+            sitekey: props.siteKey,
+            action: 'studio_interest',
+            callback: (token) => { captcha.value = token; },
+            'expired-callback': () => { captcha.value = ''; },
+            'error-callback': () => {
+                captcha.value = '';
+                errors.value = { form: ['Verification failed. Please try again.'] };
+            },
+        });
+    }, 100);
+});
+
+onBeforeUnmount(() => {
+    window.clearInterval(poll);
+    window.clearTimeout(loadTimeout);
+    if (widget !== undefined) window.turnstile?.remove(widget);
+});
 
 async function submitForm() {
     if (isSubmitting.value) return;
@@ -30,7 +79,11 @@ async function submitForm() {
     isSubmitting.value = true;
 
     try {
-        const response = await window.axios.post(props.action, form, {
+        const response = await window.axios.post(props.action, {
+            ...form,
+            _form_guard: guard.value,
+            'cf-turnstile-response': captcha.value,
+        }, {
             headers: {
                 Accept: 'application/json',
                 'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')?.content,
@@ -38,6 +91,7 @@ async function submitForm() {
         });
 
         success.value = response.data.message;
+        guard.value = response.data.guard;
 
         Object.keys(form).forEach((key) => {
             form[key] = '';
@@ -55,10 +109,12 @@ async function submitForm() {
             };
         } else {
             errors.value = {
-                form: ['Something went wrong while sending the form. Please try again in a moment.'],
+                form: ['Something went wrong while sending the form. Copy your message, refresh this page, and try again.'],
             };
         }
     } finally {
+        captcha.value = '';
+        if (widget !== undefined) window.turnstile?.reset(widget);
         isSubmitting.value = false;
     }
 }
@@ -74,6 +130,11 @@ async function submitForm() {
     </div>
 
     <form class="row g-3" @submit.prevent="submitForm">
+        <template v-for="key in ['form_security', '_form_guard', 'website_url', 'cf-turnstile-response']" :key="key">
+            <div v-if="errors[key]" class="col-12">
+                <div class="alert alert-danger" role="alert">{{ errors[key][0] }}</div>
+            </div>
+        </template>
         <div class="interest-honeypot" aria-hidden="true" inert>
             <label for="website_url">Leave this field empty</label>
             <input id="website_url" name="website_url" v-model="form.website_url" type="text" tabindex="-1" autocomplete="off">
@@ -169,8 +230,9 @@ async function submitForm() {
             <div v-if="errors.message" class="invalid-feedback">{{ errors.message[0] }}</div>
         </div>
 
+        <div v-if="turnstileEnabled" ref="captchaContainer" class="col-12"></div>
         <div class="col-12">
-            <button type="submit" class="btn btn-dark dd-cta font-md px-5 py-3" :disabled="isSubmitting">
+            <button type="submit" class="btn btn-dark dd-cta font-md px-5 py-3" :disabled="isSubmitting || (turnstileEnabled && !captcha)">
                 {{ isSubmitting ? 'Sending...' : 'Send interest form' }}
             </button>
         </div>

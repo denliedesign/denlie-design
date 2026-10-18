@@ -33,13 +33,6 @@ Route::get('mt', function () {
 });
 
 Route::post('mt/interest', function () {
-    // Bots commonly populate every field, including this invisible trap.
-    if (request()->filled('website_url')) {
-        return response()->json([
-            'message' => 'Thanks! Your message was sent. I will be in touch soon.',
-        ]);
-    }
-
     $data = request()->validate([
         'name' => ['required', 'string', 'max:120', 'not_regex:/[\r\n\x00]/'],
         'email' => ['required', 'string', 'email:rfc', 'max:160', 'not_regex:/[\r\n\x00]/'],
@@ -69,11 +62,12 @@ Route::post('mt/interest', function () {
     if (request()->expectsJson()) {
         return response()->json([
             'message' => 'Thanks! Your message was sent. I will be in touch soon.',
+            'guard' => \App\Support\FormSecurity::issue(),
         ]);
     }
 
     return back()->with('studio_interest_success', 'Thanks! Your message was sent. I will be in touch soon.');
-})->middleware('throttle:studio-interest')->name('mt.interest');
+})->middleware(['throttle:studio-interest', \App\Http\Middleware\ProtectStudioInterest::class])->name('mt.interest');
 
 Route::get('academy', function () {
     return view('academy');
